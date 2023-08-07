@@ -71,7 +71,7 @@
             </form>
         </div>
     </section>
-
+    <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
     <script>
         $("#myForm").validate({
             rules: {
@@ -87,7 +87,7 @@
             submitHandler: SubForm,
         });
         function SubForm() {
-            console.log("send start")
+            console.log("send start")ر
             $.ajax({
             url: "/verfiedCode",
             type: "post",
