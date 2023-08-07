@@ -1,0 +1,49 @@
+
+
+
+@html.extend("layout", function(model){
+    @html.block("content", function(model){
+            <!-- Bread Crumb STRAT -->
+    <div class="banner inner-banner1 ">
+      <div class="container">
+        <section class="banner-detail center-xs">
+          <h1 class="banner-title">طرق الدفع</h1>
+          <div class="bread-crumb right-side float-none-xs">
+            <ul>
+              <li><a href="/">الرئيسية</a>/</li>
+              <li><span>طرق الدفع</span></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- Bread Crumb END -->
+
+    <!-- CONTAIN START ptb-95-->
+    <section class="ptb-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="row">
+              <div class="col-12">
+                <h3>طرق الدفع</h3>
+                <p>
+                <div style="font-size: 21px;
+    width: 92% !important;
+    text-align: center;
+    margin: 0 auto;">
+                  <img src="img/bank.jpg">
+
+                </div>
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    })
+})

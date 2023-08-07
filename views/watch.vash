@@ -1,0 +1,99 @@
+@html.extend('layout', function(model) {
+  @html.block('content', function(model) {
+          <!-- Bread Crumb STRAT -->
+    <div class="banner inner-banner1 " style="background:url(/panel/uploads/services/) no-repeat scroll center center">
+      <div class="container">
+        <section class="banner-detail center-xs">
+          <h1 class="banner-title">الساعات الذكية </h1>
+          <div class="bread-crumb right-side float-none-xs">
+            <ul>
+              <li><a href="/">الرئيسية</a>/</li>
+              <li><span>الساعات الذكية </span></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- Bread Crumb END -->
+
+    <!-- CONTAIN START -->
+    <section class="ptb-70">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xl-12 col-lg-12 ">
+            <div class="shorting mb-30">
+
+            </div>
+            <div class="product-listing">
+              <div class="inner-listing">
+                <div class="row">
+              @model.Watch.forEach(function(item){
+                <div class="col-md-3 col-6 item-width mb-30">
+                    <div class="product-item">
+                      <div class="main-label sale-label"><span>جديد</span></div>
+                      <div class="product-image"> <a href="/product/@item.id"> <img src="/@item.image"
+                            alt="Stylexpo"> </a>
+                        <div class="product-detail-inner">
+                          <div class="detail-inner-left align-center">
+                            <ul>
+                              <li class="pro-cart-icon">
+                                <button title="اطلب الان" href="/product/@item.id"><span></span>اطلب الان</button>
+                              </li>
+                              <li class="pro-wishlist-icon "><a href="#" title="Wishlist"></a></li>
+                              <li class="pro-compare-icon"><a href="#" title="Compare"></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-item-details">
+                        <div class="product-item-name"> <a href="/product/@item.id">@item.name </a> </div>
+                        <div class="price-box"> <span class="price">@item.price ر.س</span> <del class="price old-price">5699
+                            ر.س</del> </div>
+                      </div>
+                      <h5 style="    text-align: center;
+                        background: #fba2a2;
+                        border-radius: 12px;
+                        font-size: 12px;
+                        color: #000000 !important;
+                        font-weight: bold;">الدفعة الاولى 1000 ر.س والقسط الشهري 375 ر.س على 12 شهر</h5>
+                      <br>
+                      <ul style="text-align:center">
+                        <li class="pro-cart-icon">
+                          <a title="اطلب الان"
+                            style="background: #f97171; border-radius: 50%;;padding:12px;   color: #fff;   font-weight: bold;"
+                            href="/product/@item.id"><i class="fa fa-plus"></i> اطلب الان</a>
+
+                        </li>
+                      </ul>
+
+
+                    </div>
+                  </div>
+              })
+                  
+
+
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="pagination-bar">
+                      <ul>
+                        <li><a 
+                        href="#"><i class="fa fa-angle-left"></i></a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTAINER END -->
+
+  })
+})

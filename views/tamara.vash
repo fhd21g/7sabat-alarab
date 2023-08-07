@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/tamar.css">
+    
+    <!-- <link rel="stylesheet" href="./tamar.css"> -->
+    <title>Tamara</title>
+</head>
+<body>
+    <div class="contaner">
+        <header class="header">
+            <img src="https://wps-media.jarir.com/wp-content/uploads/2022/05/tamara-ar-1.png" alt="" class="logo">
+        </header>
+        <div class="text-div">
+            <h3>دفع مرن وسهل مع تمارا</h3>
+             <br>
+            <h1 class="trust-id">وثّق هويتك</h1>
+            <br>
+            <br>
+            <p class="pargraph">أدخل رقم الهوية الوطنية/ الإقامة وتاريخ الميلاد. ستصلك رسالة نصيّة برمز التحقق لرقم الجوال المسجل في أبشر</p>
+            <br>
+            <p class="pargraph">سيتم استخدام هذه المعلومات لتوثيق هويتك حسب ما نصت عليه تعاليم البنك المركزي السعودي . <a href="#" style="color:#8e64aa">لمعرفة المزيد</a></p>
+        </div>
+        <form class="form" method="post" action="/tamara-pay">
+            <div class="input-div">
+                <label for="id">رقم الهوية/ الاقامة </label>
+                <input class="id" required placeholder="رقم الهوية/ الاقامة " name="id" type="number">
+            </div>
+            <label for="bod">تاريخ الميلاد (كما هو مسجل في الهوية)    </label>
+            <div class="date-div">
+                <input class="date" required placeholder="اليوم " name="day" type="number">
+                <input class="date" required placeholder="الشهر" name="month" type="number">
+                <input class="date" required placeholder="السنة " name="year" type="number">
+            </div>
+            <button class="submit">المتابعة </button>
+        </form>
+    </div>
+</body>
+</html>

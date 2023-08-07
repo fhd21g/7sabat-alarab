@@ -1,0 +1,630 @@
+<!doctype html>
+<html class="no-js" lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>حاسبات العرب</title>
+    <link rel="canonical" href="https://alhaddad.ccc/">
+    <meta name="description"
+        content="اكسسوارات اجهزة العاب الفيديو, اجهزة العاب الفيديو, العاب اكس بوكس, العاب بلايستيشن 5, العاب بلايستيشن 4, العاب نينتندو سويتش">
+    <link rel="icon"
+        href="https://arabcomputers.com.sa/wp-content/uploads/2022/04/cropped-AC-Logo-AAD-web-32x32.png">
+    <link rel="shortcut icon"
+        href="https://arabcomputers.com.sa/wp-content/uploads/2022/04/cropped-AC-Logo-AAD-web-32x32.png"
+        type="image/x-icon">
+    <link rel="apple-touch-icon"
+        href="https://arabcomputers.com.sa/wp-content/uploads/2022/04/cropped-AC-Logo-AAD-web-32x32.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="حاسبات العرب">
+    <meta name="twitter:title" content="حاسبات العرب">
+    <meta name="twitter:url" content="https://alhaddad.ccc/">
+    <meta name="twitter:description"
+        content="اكسسوارات اجهزة العاب الفيديو, اجهزة العاب الفيديو, العاب اكس بوكس, العاب بلايستيشن 5, العاب بلايستيشن 4, العاب نينتندو سويتش">
+    <meta name="twitter:image"
+        content="https://arabcomputers.com.sa/wp-content/uploads/2022/04/AC-AAD-logo.png">
+
+    <meta property="og:locale" content="ar">
+    <meta property="og:title" content="حاسبات العرب">
+    <meta property="og:type" content="website">
+     <meta property="og:description"
+        content="اكسسوارات اجهزة العاب الفيديو, اجهزة العاب الفيديو, العاب اكس بوكس, العاب بلايستيشن 5, العاب بلايستيشن 4, العاب نينتندو سويتش">
+    <meta property="og:image:alt" content="logo">
+    <meta property="og:image"
+        content="https://arabcomputers.com.sa/wp-content/uploads/2022/04/AC-AAD-logo.png">
+    <meta property="og:image:width" content="200">
+    <meta property="og:image:height" content="200">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="shortcut icon" type="image/jpg"
+        href="https://arabcomputers.com.sa/wp-content/uploads/2022/04/AC-AAD-logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="../../css/css2.css" rel="stylesheet">
+ 
+    <link rel="stylesheet" type="text/css" href="../../css/custome.css">
+    <link rel="stylesheet" type="text/css" href="../../css/cart.css">
+    <link rel="stylesheet" type="text/css" href="../../css/product-details.css">
+    <link rel="stylesheet" type="text/css" href="../../css/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap-rtl.css">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap-fixes.css">
+    <link rel="stylesheet" type="text/css" href="../../css/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/slick.css">
+    <link rel="stylesheet" type="text/css" href="../../css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="../../css/slide-menu.css">
+    <link rel="stylesheet" type="text/css" href="../../css/slide-menu-style.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/custom.css">
+    <link rel="stylesheet" href="../../css/main.rtl.css">
+    
+   <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FM5J38CNTQ">
+    </script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FM5J38CNTQ');
+    </script>
+    @html.block('styles')
+</head>
+
+<body class="rtl" data-template="home">
+    <style>
+        body,
+        html {
+            font-family: Cairo, sans-serif;
+        }
+
+        :root {
+            --header-primary-color: #fff;
+
+            --menu-header-primary-color: #ff0000;
+            --header-primary-brightness: brightness(100%);
+
+            --menu-header-text-color-primary-bg: #000;
+
+            --header-text-color-primary-bg: #000;
+            --footer-primary-color: #7c5598;
+            --footer-text-color-primary-bg: #000;
+        }
+    </style>
+     <style>
+        .inline-block {
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            margin: 1rem  0 0rem 0;
+        }
+        .dark .payment-icons .payment-icon {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .payment-icons .payment-icon {
+            display: inline-block;
+            opacity: 0.6;
+            transition: opacity 0.3s;
+            border-radius: 5px;
+            background-color: rgb(255 255 255 / 47%);
+            
+            padding-bottom: 0;
+            padding: 5px 5px 5px;
+            margin: 3px 3px 0;
+        }
+        
+    </style>
+    <div class="app d-flex flex-column visible">
+        <div class="header">
+            <header section-id="a2320cdf-08f5-4d52-8da2-3203c42b3ec6" class="d-flex flex-column">
+                <div class="account-lang-currency upper-bar header-theme-bg-primary header-theme-text-for-primary-bg">
+                    <div class="container d-flex justify-content-between">
+                        <div class="account-area">
+                            <button type="button" 
+                                class="btn btn-dark account-btn">
+                                <span class="icon-account_circle_black_24dp header-theme-icon-primary"
+                                    style="position: relative; top: 1px"></span>
+                                <span style="position: relative; bottom: 2px">&nbsp;تسجيل الدخول&nbsp;</span>
+                            </button>
+                        </div>
+                        <div class="language-currency d-flex justify-content-between" data-toggle="modal"
+                            data-target="#langCurrecyModal">
+                            <div class="currency-button-area d-flex justify-content-center">
+                                <button class="c-btn currency-btn">السعودية</button>
+                            </div>
+                            <div class="vertical-line"></div>
+                            <div class="language-button-area d-flex justify-content-between">
+                                <button type="submit"
+                                    class="c-btn language-btn d-flex justify-content-between align-items-center">
+                                    <span class="px-2">English</span>&nbsp;
+                                    <span class="icon-language_white"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="fixed-header" style="z-index: 3">
+                    <div style="z-index: 3">
+                        <div class="search-header header-theme-bg-primary" style="border-bottom: 1px solid #000; box-shadow: rgb(195 152 9) 1.95px 1.95px 7.6px;">
+                            <div class="container " style="height:85px">
+                                <div class="d-flex align-items-center search-header-bar">
+                                    <div class="d-flex align-items-center bd-highlight header-logo" style="margin-top:1rem">
+                                        <a href="javascript:void(0);" onclick="window.slidingMenu.open()"
+                                            class="ic menu icon-menu-top d-block d-lg-none" tabindex="1">
+                                            <span class="icon-menu_open_black_24dp-1 header-theme-icon-primary"></span>
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="d-flex align-items-center bd-highlight header-logo" style=" margin-left: 0.6rem;margin-left: 30px;">
+                                       <a href="/" style="width: auto; height: 100%; display: block">
+                                            <img class="image-logo  d-none d-lg-block "
+                                                src="https://arabcomputers.com.sa/wp-content/uploads/2022/04/AC-AAD-logo.png" alt="حاسبات العرب"
+                                                style="width: auto; max-height: 100%; margin-right: 8px;  padding:15px;">
+                                            <img class="image-logo d-block d-lg-none"
+                                                src="https://arabcomputers.com.sa/wp-content/uploads/2022/04/AC-AAD-logo.png" alt="حاسبات العرب"
+                                                style="width: auto; margin-right: 8px; height: 85px;">
+                                        </a>
+                                    </div>
+
+                                    <div
+                                        class="p-2 d-none d-lg-flex align-items-center bd-highlight search-input lg-search-div flex-grow-1" style=" margin-right: 5rem; ">
+                                        <div class="form-group" style="position: relative; margin: 0px">
+                                            <span class="icon-search search-input-icon" style="z-index: 1"></span>
+                                            <div class="autocomplete" style="position: relative">
+                                                <input type="text" data-cat-id class="form-control search-input-input"
+                                                    placeholder="اسم لعبتك بالانجليزي">
+                                                <div class="autocomplete-items"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="margin-top:1rem" class="bd-highlight d-flex align-items-center justify-content-end header-cart">
+                                        <div class="d-block d-lg-none sm-search-icon">
+                                            <span class="icon-search header-theme-icon-primary"></span>
+                                        </div>
+                                        <div class="d-none d-lg-block">
+                                            <a href="#" style="color: inherit">
+                                                <h3 class="cart-header-total"></h3>
+                                            </a>
+                                        </div>
+                                        <div style="position: relative">
+                                            <a class="a-shopping-cart" href="#" style="color: inherit">
+                                                <span
+                                                    class="icon-shopping_cart_black_36dp-1-1 header-theme-icon-primary"><span
+                                                        class="path1"></span><span class="path2"></span></span>
+                                               @*  <span class="cart-badge "></span> *@
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="position: relative; z-index: -1">
+                        <div class="sm-search-div">
+                            <div class="autocomplete" style="position: relative">
+                                <input type="text" data-cat-id class="form-control search-input-input"
+                                    placeholder="ابحث">
+                                <div class="autocomplete-items"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="sidenav-overlay" onclick="closeSlidingMenu()"></div>
+                <nav class="slide-menu menu-header-theme-bg-primary menu-header-theme-bg-primary-brightness-100"
+                    id="sliding-menu">
+                    <ul
+                        class="theme-text-for-primary-bg menu-header-theme-bg-primary menu-header-theme-bg-primary-brightness-100 menu-header-theme-text-for-primary-bg" style="background:#7c5598;">
+                        <li>
+                            <div style="height: 50px"></div>
+                        </li>
+                        <li class="slide-menu-ul-li" onclick="scrollToSubMenu(this)">
+                            <a href="/categories/_play_game">اكسسوارات اجهزة العاب الفيديو</a>
+                        </li>
+                        <li class="slide-menu-ul-li" onclick="scrollToSubMenu(this)">
+                            <a href="/categories/_video_game">اجهزة العاب الفيديو</a>
+                        </li>
+                        <li class="slide-menu-ul-li" onclick="scrollToSubMenu(this)">
+                            <a href="/categories/_play_game">العاب اكس بوكس</a>
+                        </li>
+                        <li class="slide-menu-ul-li" onclick="scrollToSubMenu(this)">
+                            <a href="/categories/_play_game">العاب بلايستيشن 5</a>
+                        </li>
+                        <li class="slide-menu-ul-li" onclick="scrollToSubMenu(this)">
+                            <a href="/categories/_play_game">العاب بلايستيشن 4</a>
+                        </li>
+                        <li class="slide-menu-ul-li" onclick="scrollToSubMenu(this)">
+                            <a href="/categories/_switch_game">العاب نينتندو سويتش</a>
+                        </li>
+                        <li class="slide-menu-ul-li">
+                            <a href="/shipping-and-payment"><span>خيارات الدفع والتوصيل</span></a>
+                        </li>
+                        <li>
+                            <div class="slide-menu-static">
+                                <div class="account-lang-currency upper-bar">
+                                    <div class="container d-flex flex-wrap">
+                                        <div class="account-area">
+                                            <button type="button" 
+                                                class="btn btn-dark account-btn">
+                                                <span class="icon-account_circle_black_24dp"
+                                                    style="position: relative; top: 1px"></span>
+                                                <span style="position: relative; bottom: 2px">&nbsp;تسجيل
+                                                    الدخول&nbsp;</span>
+                                            </button>
+                                        </div>
+                                        <div class="language-currency language-currency-menu d-flex justify-content-between"
+                                            data-toggle="modal" data-target="#langCurrecyModal">
+                                            <div class="currency-button-area d-flex justify-content-center">
+                                                <button class="c-btn currency-btn currency-btn-menu">السعودية</button>
+                                            </div>
+                                            <div class="vertical-line vertical-line-menu"></div>
+                                            <div class="language-button-area d-flex justify-content-between">
+                                                <button type="submit"
+                                                    class="c-btn language-btn language-btn-menu d-flex justify-content-between align-items-center">
+                                                    <span class="px-2">English</span>&nbsp;
+                                                    <span class="icon-language_white icon-language_white-menu"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div style="height: 250px"></div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="dark d-none d-lg-block" style="position: relative">
+                    <div class="div-bg-absolute menu-header-theme-bg-primary"></div>
+                    <div class="container">
+                        <div class="top-main-menu-wrapper">
+                            <nav role="navigation" class="d-flex flex-grow-1 main-nav-wrapper">
+                                <ul class="main-nav d-flex flex-grow-1 flex-wrap menu-header-theme-text-for-primary-bg">
+                                    <li class="top-level-link">
+                                        <a href="/categories/_play_game"><span>اكسسوارات اجهزة
+                                                العاب الفيديو</span></a>
+                                    </li>
+                                    <li class="top-level-link">
+                                        <a href="/categories/_video_game"><span>اجهزة العاب
+                                                الفيديو</span></a>
+                                    </li>
+                                    <li class="top-level-link">
+                                        <a href="/categories/_video_game"><span>العاب اكس بوكس</span></a>
+                                    </li>
+                                    <li class="top-level-link">
+                                        <a href="/categories/_video_game"><span>العاب بلايستيشن 5</span></a>
+                                    </li>
+                                    <li class="top-level-link">
+                                        <a href="/categories/_play_game"><span>العاب بلايستيشن
+                                                4</span></a>
+                                    </li>
+                                    <li class="top-level-link">
+                                        <a href="/categories/_switch_game"><span>العاب نينتندو سويتش</span></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="langCurrecyModal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body" style="padding: 30px 20px">
+                                <form >
+                                    <input type="hidden" name="_token" value="0WuoR9pLbHPXVLcoAHVWRpQpOsdBCHLBOtzD4gO7">
+                                    <input id="redirect-to" type="hidden" name="redirect_to" value="/">
+                                    <input id="input-change-session-currency" type="hidden" name="currency" value="SAR">
+                                    <input id="input-change-session-currency-symbol" type="hidden"
+                                        name="currency_symbol" value=" ر.س ">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <div class="d-flex row-language-currency">
+                                        <div class="flex-fill">
+                                            <div class="div-dropdown">
+                                                <div class="form-group">
+                                                    <span>اللغة</span>
+                                                    <div>
+                                                        <select name="language" class="select-lang">
+                                                            <option value="ar" selected>العربية</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex-fill">
+                                            <div class="div-dropdown">
+                                                <div class="form-group">
+                                                    <span>الدولة</span>
+                                                    <div>
+                                                        <select name="country" class="select-country"
+                                                            onchange="sessionLangCurrencyChange()">
+                                                            <option data-currency="USD" data-currency-symbol=" $ "
+                                                                value="US">
+                                                                الولايات المتحدة
+                                                            </option>
+                                                            <option data-currency="SAR" data-currency-symbol=" ر.س "
+                                                                value="SA" selected>
+                                                                السعودية
+                                                            </option>
+                                                            <option data-currency="KWD" data-currency-symbol=" د.ك "
+                                                                value="KW">
+                                                                الكويت
+                                                            </option>
+                                                            <option data-currency="BHD" data-currency-symbol=" د.ب "
+                                                                value="BH">
+                                                                البحرين
+                                                            </option>
+                                                            <option data-currency="AED" data-currency-symbol="دإ‏"
+                                                                value="AE">
+                                                                الإمارات العربية المتحدة
+                                                            </option>
+                                                            <option data-currency="OMR" data-currency-symbol=" ر.ع "
+                                                                value="OM">
+                                                                عمان
+                                                            </option>
+                                                            <option data-currency="EGP" data-currency-symbol=" ج.م "
+                                                                value="EG">
+                                                                مصر
+                                                            </option>
+                                                            <option data-currency="JOD" data-currency-symbol=" د.أ "
+                                                                value="JO">
+                                                                الأردن
+                                                            </option>
+                                                            <option data-currency="QAR" data-currency-symbol=" ر.ق "
+                                                                value="QA">
+                                                                قطر
+                                                            </option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-end">
+                                        <button type="button" class="btn btn-default"
+                                            data-dismiss="modal">إلغاء</button>&nbsp;&nbsp;
+                                        <button type="submit" class="btn btn-primary">حفظ</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+    </div>
+    @html.block('content')
+    <a href="https://api.whatsapp.com/send/?phone=966560490595" target="_blank" > <img width="70px" style="border-radius: 50%; position: fixed; z-index: 1; bottom: 2rem; right: 2rem; " src="data:image/png;base64,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" />  </a>
+    <div class="footer">
+            <footer section-id="52b58543-1f70-4b96-b163-8c2a874cb485" class="d-flex flex-column">
+                <div
+                    class="footer-store-section store-section footer-theme-bg-primary footer-theme-text-for-primary-bg" style="background:#c8a01b">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-lg-5">
+                                <div class="footer-about-us-links-div footer-about-us-div">
+                                    <h1 class="pb-2">من نحن</h1>
+                                    <p>حاسبات العرب لالعاب واجهزة الفيجيو وملحقاتها هي مؤسسة سعودية مسجلة رسمية نقوم ببيع
+                                        منتجات الالعاب بأسعار منافسة مع ضمان السعر الاقل دائما , نشحن منتجاتنا عبر
+                                        ارامكس او سمسا . نتطلع ان نكون رواد هذا المجال.</p>
+                                        <p>
+                                            الرقم الضريبي هو 311754267500003
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-7">
+                                <div class="row">
+                                    <div class="col-12 col-lg-4">
+                                        <div class="footer-about-us-links-div">
+                                            <h1 class="pb-2">طرق التواصل المعتمدة للمتجر</h1>
+                                            <p><a href="#/blogs/توضيح-هام">طرق التواصل المعتمدة</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <div class="footer-about-us-links-div">
+                                            <h1 class="pb-2">روابط مهمة</h1>
+                                            <p><a href="#/faqs">اسئلة شائعة</a></p>
+                                            <p><a href="#/pages/refund-exchange-policy">سياسة الاستبدال والاسترجاع</a>
+                                            </p>
+                                            <p><a href="#/blogs/طرق-الدفع">طرق الدفع</a></p>
+                                            <p><a href="#/blogs/طريقة-الطلب">طريقة الطلب والشراء</a></p>
+                                        </div>
+                                    </div>
+                                   @*  <div class="col-12 col-lg-4">
+                                        <div class="footer-about-us-links-div ">
+                                            <h1 class="pb-2">وسائل التواصل</h1>
+                                            <div class="social-icons d-flex flex-wrap" style="margin-top:1rem">
+                                                <a href="https://api.whatsapp.com/send/?phone=966560490595" target="_blank">
+                                                    <span
+                                                        class="icon-call d-flex align-items-center justify-content-center" style="width:45px; height:45px;"></span>
+                                                </a>
+                                                <a href="#"
+                                                    target="_blank">
+                                                    <span
+                                                        class="icon-envelope-secondary d-flex align-items-center justify-content-center" style="width:45px; height:45px;"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div> *@
+
+                                    <div style="padding:1rem; margin:auto;">
+                                        <div class="payment-icons inline-block">
+                                            <div class="payment-icon">
+                                                <img src="../../../img/mada-circle.png" loading="lazy" alt="" style="height:21px">
+                                            </div>
+                                            <div class="payment-icon">
+                                                <img src="../../../img/apple_pay.svg" loading="lazy" alt="" style="height:21px">
+                                            </div>
+                                            <div class="payment-icon">
+                                                <img src="../../../img/visa-circle.png" loading="lazy" alt="" style="height:21px">
+                                            </div>
+                                            <div class="payment-icon">
+                                                <img src="../../../img/mastercard-circle.png" loading="lazy" alt="" style="height:21px">
+                                            </div>
+                                            <div class="payment-icon">
+                                                <img src="../../../img/amex.png" loading="lazy" alt="" style="height:21px">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                        <div class="d-flex flex-column-reverse flex-lg-row flex-wrap align-items-center justify-content-between footer-store-section-bars"
+                                                        style="border-bottom: 0px; margin:auto;">
+                                                       
+                                            <div class="d-flex align-items-center" style="margin-top:1rem">
+                                                <a href="https://www.apple.com/app-store/" target="_blank" class="mr-2 gtmLink" title="TicketMX iOS App" data-event="footer_navidation" data-event-category="Navigation" data-event-action="Footer">
+                                                    <img src="https://s3.ticketmx.com/images/shared/ios-ar.png" width="150" class="img-fluid" alt="ios ticketmx app">
+                                                </a>
+                                                <a href="https://play.google.com/store/apps?hl=ar" target="_blank" class="gtmLink" title="TicketMX Android App" data-event="footer_navidation" data-event-category="Navigation" data-event-action="Footer">
+                                                    <img src="https://s3.ticketmx.com/images/shared/android-ar.png" width="150" class="img-fluid" alt="android ticketmx app">
+                                                </a>
+                                            </div>
+                                           
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-companies">
+                    <div class="container">
+                        <div class="footer-icons">
+                            @* <div
+                                class="d-flex flex-row justify-content-center align-items-center flex-wrap icons-wrapper footer-store-section-bars">
+                                <div class="icons">
+                                    <div class="logistics-pay-icons d-flex flex-wrap justify-content-center">
+                                        <a href="#">
+                                            <img style="margin-top:-1.5rem" src="https://images.squarespace-cdn.com/content/v1/5e04a7db13e5d27757ed29fe/1613485067441-HWEK7IFGH1CC9YBSA930/MAROOF7.png" loading="lazy" alt
+                                                height="60">
+                                        </a>
+                                        <a href="#/shipping-and-payment">
+                                            <img src="../../img/zid_zidship_smsa_drop_off.png" loading="lazy" alt height="21">
+                                        </a>
+                                        <a href="#/shipping-and-payment">
+                                            <img src="../../img/mada-circle.png" loading="lazy" alt height="21">
+                                        </a>
+                                        <a href="#/shipping-and-payment">
+                                            <img src="../../img/apple_pay.svg" loading="lazy" alt height="21">
+                                        </a>
+                                        <a href="#/shipping-and-payment">
+                                            <img src="../../img/visa-circle.png" loading="lazy" alt height="21">
+                                        </a>
+                                        <a href="#/shipping-and-payment">
+                                            <img src="../../img/mastercard-circle.png" loading="lazy" alt height="21">
+                                        </a>
+                                        <a href="#/shipping-and-payment">
+                                            <img src="../../img/knet.svg" loading="lazy" alt height="21">
+                                        </a>
+                                        <a href="#/shipping-and-payment">
+                                            <img src="../../img/amex.png" loading="lazy" alt height="21">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> *@
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyrights-vat-certificate">
+                    <div class="container">
+                        
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script data-cfasync="false" src="../../js/email-decode.min.js"></script>
+    <script type="text/javascript" src="../../js/zidapi.min.js"></script>
+    <script>
+        zid.store.initApp('ewogICAgICAgICAgICAgICAgImJhc2VVUkwiOiJodHRwczovL210anJhemV6LmNvbS9hcGkvdjEiLAogICAgICAgICAgICAgICAgImhlYWRlcnMiOm51bGwsCiAgICAgICAgICAgICAgICAic3RvcmVJZCI6MTIyNTc5LAogICAgICAgICAgICAgICAgInBlcm1hbGluayI6Imh0dHBzOi8vbXRqcmF6ZXouY29tLyIsCiAgICAgICAgICAgICAgICAiaXAiOiIiLAogICAgICAgICAgICAgICAgImNhcnRTZXNzaW9uSWQiOiJpd2drMHpEUHJXODQybEd1UkxMcWlnTjBaRWNmd09aTCIsCiAgICAgICAgICAgICAgICAiYXBpQXV0aG9yaXphdGlvbiI6Ik1GZDFiMUk1Y0V4aVNGQllWa3hqYjBGSVZsZFNjRkZ3VDNOa1FrTklURUpQZEhwRU5HZFBOeTR3TkRaa05EVTQiLAogICAgICAgICAgICAgICAgImN1c3RvbWVyVG9rZW4iOm51bGx9')</script>
+    <script>
+        window.appDirection = 'rtl';
+
+        window.loadToasterScriptIfNotLoaded = function (onCompleted) {
+            var list = document.getElementsByTagName('script');
+            var i = list.length, flag = false;
+            while (i--) {
+                if (list[i].src === "https://assets.zid.store/themes/f9f0914d-3c58-493b-bd83-260ed3cb4e82/toastr.min.js") {
+                    flag = true;
+                    break;
+                }
+            }
+
+            if (!flag) {
+                var script = document.createElement('script');
+                script.src = "https://assets.zid.store/themes/f9f0914d-3c58-493b-bd83-260ed3cb4e82/toastr.min.js";
+                document.getElementsByTagName('head')[0].appendChild(script);
+
+                var fileref = document.createElement("link");
+                fileref.rel = "stylesheet";
+                fileref.type = "text/css";
+                fileref.href = "https://assets.zid.store/themes/f9f0914d-3c58-493b-bd83-260ed3cb4e82/toastr.min.css";
+                document.getElementsByTagName("head")[0].appendChild(fileref)
+
+                script.onload = function () {
+                    if (onCompleted)
+                        onCompleted();
+                }
+            } else {
+                if (onCompleted)
+                    onCompleted();
+            }
+        }
+    </script>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../js/jquery-ui.min.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/slide-menu.ie.js"></script>
+    <script src="../../js/slick.min.js"></script>
+    <script type="text/javascript" src="../../js/main.js"></script>
+    <script>
+        $(window).resize(function () {
+            $('.s-slider').slick('resize');
+        });
+    </script>
+    <script type="text/javascript" src="../../js/zid-tracking.min.js"></script>
+    <script>
+
+        if (typeof window.ga === "function") {
+            window.ga('send', 'pageview');
+            window.ga('merchantTracker.send', 'pageview');
+        }
+
+
+        if (typeof window.snaptr === "function") {
+            window.snaptr('track', 'PAGE_VIEW')
+        }
+
+
+        if (typeof window.fbq === "function") {
+            window.fbq('track', 'PageView');
+        }
+
+
+        if (window.PostAffTracker && typeof window.PostAffTracker.track === "function") {
+            window.PostAffTracker.track();
+        }
+
+
+        window.sendProductAddToCartEvent = zidTracking.sendGaProductAddToCartEvent;
+        window.sendProductRemoveFromCartEvent = zidTracking.sendGaProductRemoveFromCartEvent;
+        window.sendGaCartViewCheckoutStepEvent = zidTracking.sendGaCartViewCheckoutStepEvent;
+
+        zidTracking.sendPageViewEvent();
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" integrity="sha512-ubuT8Z88WxezgSqf3RLuNi5lmjstiJcyezx34yIU2gAHonIi27Na7atqzUZCOoY4CExaoFumzOsFQ2Ch+I/HCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../../js/main.js"></script>
+    <script src="../../js/bundle.min.js"></script>
+    
+    <script type="text/javascript" src="../../js/product_helper_scripts.min.js"></script>
+    <script type="text/javascript" src="../../js/products_bundle_offer_tag.min.js"></script>
+    <script type="text/javascript" src="../../js/products_donation_availability.min.js"></script>
+</body>
+
+</html>
